@@ -1,27 +1,42 @@
 # =====================================================================
 # Decap CMS 설정 — 관리자(/admin)에서 수정한 내용을 git에 커밋합니다.
-# 로그인: Netlify Identity + Git Gateway
+# 로그인/저장: DecapBridge (PKCE) → GitHub 커밋 → Netlify 자동 배포
 # 각 파일 구조: { "필드명": { "ko": "...", "en": "...", "ja": "..." } }
 # =====================================================================
-# 로그인/저장 백엔드: DecapBridge (Netlify Identity 대체 · git에 커밋)
-# ⚠️ 아래 repo 와 identity_url 의 사이트ID 는 DecapBridge 대시보드에서 발급되는 값입니다.
-#    (decapbridge.com → 사이트 등록 시 생성되는 config 블록의 값으로 교체)
+# Use DecapBridge PKCE auth (required)
 backend:
   name: git-gateway
   repo: roiim0224/bodynox
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/사이트ID   # ← 대시보드 값으로 교체
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/7dd83a1a-238c-4a6b-a74f-0a9890ba2374/pkce
+  auth_token_endpoint: /sites/7dd83a1a-238c-4a6b-a74f-0a9890ba2374/token
   gateway_url: https://gateway.decapbridge.com
-  commit_messages:
-    create: '{{collection}} "{{slug}}" 생성 - {{author-name}} (관리자)'
-    update: '{{collection}} "{{slug}}" 수정 - {{author-name}} (관리자)'
-    delete: '{{collection}} "{{slug}}" 삭제 - {{author-name}} (관리자)'
-    uploadMedia: '이미지 "{{path}}" 업로드 - {{author-name}} (관리자)'
-    deleteMedia: '이미지 "{{path}}" 삭제 - {{author-name}} (관리자)'
 
-# 로컬 테스트용 백엔드.
-# localhost 로 접속했고 'npx decap-server'가 켜져 있을 때만 동작합니다.
-# 배포된 사이트에서는 무시되고 위 DecapBridge 백엔드가 사용되므로 그대로 둬도 안전합니다.
+  # See who did what (optional)
+  commit_messages:
+    create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    delete: Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    uploadMedia: Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
+
+# Enable PKCE fields (optional, recommended)
+auth:
+  email_claim: email
+  first_name_claim: first_name
+  last_name_claim: last_name
+  avatar_url_claim: avatar_url
+
+# Better Decap + Bridge logo (optional)
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+
+# Add site links in Decap CMS (optional)
+site_url: https://bodynox.netlify.app
+
+# 로컬 테스트용 백엔드 (localhost + 'npx decap-server'일 때만 동작, 배포 사이트에선 무시)
 local_backend: true
 
 # 관리자 화면 UI 언어
