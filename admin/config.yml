@@ -3,13 +3,25 @@
 # 로그인: Netlify Identity + Git Gateway
 # 각 파일 구조: { "필드명": { "ko": "...", "en": "...", "ja": "..." } }
 # =====================================================================
+# 로그인/저장 백엔드: DecapBridge (Netlify Identity 대체 · git에 커밋)
+# ⚠️ 아래 repo 와 identity_url 의 사이트ID 는 DecapBridge 대시보드에서 발급되는 값입니다.
+#    (decapbridge.com → 사이트 등록 시 생성되는 config 블록의 값으로 교체)
 backend:
   name: git-gateway
-  branch: main          # 사이트가 배포되는 브랜치. (보통 main)
+  repo: GITHUB_사용자명/bodynox-homepage              # ← 대시보드 값으로 교체
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/사이트ID   # ← 대시보드 값으로 교체
+  gateway_url: https://gateway.decapbridge.com
+  commit_messages:
+    create: '{{collection}} "{{slug}}" 생성 - {{author-name}} (관리자)'
+    update: '{{collection}} "{{slug}}" 수정 - {{author-name}} (관리자)'
+    delete: '{{collection}} "{{slug}}" 삭제 - {{author-name}} (관리자)'
+    uploadMedia: '이미지 "{{path}}" 업로드 - {{author-name}} (관리자)'
+    deleteMedia: '이미지 "{{path}}" 삭제 - {{author-name}} (관리자)'
 
 # 로컬 테스트용 백엔드.
 # localhost 로 접속했고 'npx decap-server'가 켜져 있을 때만 동작합니다.
-# 배포된 사이트(실제 도메인)에서는 무시되고 위 git-gateway 가 사용되므로 그대로 둬도 안전합니다.
+# 배포된 사이트에서는 무시되고 위 DecapBridge 백엔드가 사용되므로 그대로 둬도 안전합니다.
 local_backend: true
 
 # 관리자 화면 UI 언어

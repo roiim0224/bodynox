@@ -585,19 +585,5 @@
   </div>
 
   <script src="assets/js/main.js" defer></script>
-
-  <!-- 관리자 로그인(Netlify Identity): 초대·로그인 후 자동으로 /admin 으로 이동 -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", function (user) {
-        if (!user) {
-          window.netlifyIdentity.on("login", function () {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
 </body>
 </html>

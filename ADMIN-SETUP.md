@@ -40,42 +40,38 @@
 
 ---
 
-## 3단계. 로그인 기능(Netlify Identity) 켜기
+## 3단계. 로그인 연결 (DecapBridge)
 
-1. 사이트 대시보드 → 상단 **Integrations**(또는 좌측 메뉴) 에서 **Identity** 검색/이동
-   - 화면에 따라 **Site configuration → Identity** 위치일 수 있습니다.
-2. **Enable Identity** 클릭
+> Netlify Identity는 단계적 종료(deprecated) 중이라, Decap 전용 무료 로그인 서비스
+> **DecapBridge**로 연결합니다. 동작(저장 → GitHub 커밋 → 사이트 반영)은 동일합니다.
 
-### 가입을 "초대받은 사람만"으로 제한 (권장)
-3. Identity 설정 안 **Registration** → **Invite only** 선택
-   (이걸 안 하면 아무나 가입할 수 있습니다.)
+1. **https://decapbridge.com** → **Sign up**(가입)
+2. 대시보드에서 **Add site**(사이트 추가)
+3. **GitHub** 선택 → 안내에 따라 DecapBridge가 내 GitHub 저장소에 접근하도록 **Authorize**
+4. 저장소 경로를 `사용자명/bodynox-homepage` 형식으로 입력 → **Create site**
+5. 그러면 **`config.yml`에 넣을 backend 블록**이 화면에 생성됩니다 (repo·identity_url 포함).
+   → 이 블록을 **복사**해 두세요.
 
----
-
-## 4단계. Git Gateway 켜기 (저장 → git 커밋의 핵심)
-
-1. 같은 Identity 설정 화면을 아래로 스크롤 → **Services** → **Git Gateway**
-2. **Enable Git Gateway** 클릭
-   - 이게 켜져 있어야 관리자에서 누른 "저장"이 실제 git 커밋이 됩니다.
-
----
-
-## 5단계. 본인을 관리자로 초대
-
-1. 사이트 대시보드 → **Identity** 탭 → **Invite users**
-2. 본인 이메일(예: roiim0224@gmail.com) 입력 → **Send**
-3. 메일함에서 초대 메일의 **Accept the invite** 클릭
-4. 사이트로 이동되면 **비밀번호 설정** 창이 뜹니다 → 비밀번호 입력
-   - 설정이 끝나면 자동으로 `/admin` 으로 이동합니다.
-
-> 초대 메일 링크를 눌렀는데 비밀번호 창이 안 뜨면,
-> 직접 `사이트주소/admin` 으로 가서 로그인하면 됩니다.
+### config.yml에 값 넣기
+- `admin/config.yml` 맨 위 `backend:` 부분의 `repo` 와 `identity_url` 을
+  4~5단계에서 받은 값으로 바꾸면 됩니다.
+- 코드 수정이 부담되면, **복사한 블록을 그대로 전달**해 주세요(개발자/Claude가 끼워 넣어 드립니다).
+- 수정한 `config.yml` 은 GitHub Desktop에서 **Commit → Push** 하면 사이트에 반영됩니다.
 
 ---
 
-## 6단계. 문구 수정 테스트
+## 4단계. 본인·편집자 초대
 
-1. `사이트주소/admin` 접속 → 로그인
+1. DecapBridge 대시보드 → 해당 사이트 → **Users / Invite**
+2. 이메일(예: roiim0224@gmail.com) 입력 → **Send**
+3. 받은 메일의 링크에서 **로그인 방법 선택**(비밀번호 / 구글 / Microsoft 중 택1) → 계정 설정
+   - 편집자는 **GitHub 계정이 없어도** 됩니다.
+
+---
+
+## 5단계. 문구 수정 테스트
+
+1. `사이트주소/admin` 접속 → DecapBridge로 로그인
 2. 왼쪽 **사이트 문구** 아래에 편집할 수 있는 항목이 있습니다:
    - **센터 소개 문구** — 첫 화면 소개 본문
    - **상단 메뉴** — 센터 소개 / 수업 / 가격 / 강사 / 후기 / 오시는 길 / 예약·상담 버튼
@@ -127,6 +123,6 @@ npm run dev          # http://localhost:5500
 ## 자주 묻는 질문
 
 - **수정한 게 사라지나요?** 아니요. git에 커밋되므로 영구 보존됩니다.
-- **여러 명이 쓸 수 있나요?** 네. 5단계에서 같은 방법으로 다른 사람도 초대하면 됩니다.
+- **여러 명이 쓸 수 있나요?** 네. 4단계(DecapBridge 초대)에서 다른 사람도 초대하면 됩니다.
 - **나중에 다른 문구도 편집하고 싶어요.** 개발자에게 "admin/config.yml에 항목 추가"를 요청하면
   메뉴/수업/가격 등도 같은 방식으로 관리자에서 편집할 수 있게 확장됩니다.
