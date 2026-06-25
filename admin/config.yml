@@ -8,7 +8,7 @@
 #    (decapbridge.com → 사이트 등록 시 생성되는 config 블록의 값으로 교체)
 backend:
   name: git-gateway
-  repo: GITHUB_사용자명/bodynox-homepage              # ← 대시보드 값으로 교체
+  repo: roiim0224/bodynox
   branch: main
   identity_url: https://auth.decapbridge.com/sites/사이트ID   # ← 대시보드 값으로 교체
   gateway_url: https://gateway.decapbridge.com
