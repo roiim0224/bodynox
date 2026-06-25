@@ -8,17 +8,25 @@
 
 ---
 
-## 1단계. 코드를 GitHub에 올리기
+## 1단계. 코드를 GitHub에 올리기 — GitHub Desktop 앱 (터미널 불필요)
 
 > Git Gateway는 "폴더 드래그&드롭 배포"로는 동작하지 않습니다. 반드시 GitHub 저장소에 올려서 연결해야 합니다.
+> 첫 커밋은 이미 만들어져 있으므로, 아래는 그걸 GitHub에 "게시(Publish)"하는 과정입니다.
 
-1. https://github.com 가입/로그인
-2. 오른쪽 위 **+** → **New repository** 클릭
-3. 이름(예: `bodynox-homepage`) 입력 → **Private** 선택 → **Create repository**
-4. 만들어진 화면에서 **uploading an existing file** 링크 클릭
-5. 이 `bodynox-homepage` 폴더 안의 **모든 파일을 끌어다 놓기** → **Commit changes**
+1. **GitHub Desktop 설치**: https://desktop.github.com → **Download for macOS**
+   → 받은 파일 압축 풀고 **응용 프로그램(Applications)** 폴더로 드래그 → 실행
+2. **GitHub 로그인**: 첫 실행 시 **Sign in to GitHub.com** → 브라우저에서 **Authorize**
+   (이름/이메일 설정 화면이 나오면 그대로 **Continue/Finish**)
+3. **폴더 추가**: 상단 메뉴 **File → Add Local Repository**
+   → **Choose…** 로 `bodynox-homepage` 폴더 선택 → **Add Repository**
+   (이미 커밋이 있어 "변경사항 없음" 상태로 보이면 정상입니다)
+4. **게시**: 오른쪽 위 **Publish repository** 버튼 클릭
+   → 이름은 `bodynox-homepage` 그대로
+   → **Keep this code private** 체크 **유지(비공개)** → **Publish Repository**
+5. 끝나면 `https://github.com/<내아이디>/bodynox-homepage` (비공개)에 올라갑니다.
 
-> 파일이 너무 많아 끌어다 놓기가 어려우면, 개발자에게 "이 폴더를 GitHub main 브랜치로 푸시해달라"고 한 줄만 부탁하면 됩니다.
+> 이후 내 컴퓨터에서 파일을 직접 고쳤다면, GitHub Desktop에서 **Commit → Push** 두 번 클릭으로 올리면 됩니다.
+> (단, 관리자 `/admin`에서 고친 내용은 자동으로 GitHub에 올라가므로 Desktop이 필요 없습니다.)
 
 ---
 
