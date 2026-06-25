@@ -1,0 +1,296 @@
+# =====================================================================
+# Decap CMS 설정 — 관리자(/admin)에서 수정한 내용을 git에 커밋합니다.
+# 로그인: Netlify Identity + Git Gateway
+# 각 파일 구조: { "필드명": { "ko": "...", "en": "...", "ja": "..." } }
+# =====================================================================
+backend:
+  name: git-gateway
+  branch: main          # 사이트가 배포되는 브랜치. (보통 main)
+
+# 로컬 테스트용 백엔드.
+# localhost 로 접속했고 'npx decap-server'가 켜져 있을 때만 동작합니다.
+# 배포된 사이트(실제 도메인)에서는 무시되고 위 git-gateway 가 사용되므로 그대로 둬도 안전합니다.
+local_backend: true
+
+# 관리자 화면 UI 언어
+locale: "ko"
+
+# 이미지 업로드 기능을 쓸 때 저장될 위치 (지금은 안 써도 무방)
+media_folder: "assets/img/real/uploads"
+public_folder: "/assets/img/real/uploads"
+
+collections:
+  - name: "settings"
+    label: "사이트 문구"
+    files:
+      - name: "about"
+        label: "센터 소개 문구"
+        file: "content/about.json"
+        editor:
+          preview: false
+        fields:
+          - name: "desc"
+            label: "센터 소개 본문"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "text" }
+              - { name: "en", label: "English", widget: "text" }
+              - { name: "ja", label: "日本語", widget: "text" }
+      - name: "nav"
+        label: "상단 메뉴"
+        file: "content/nav.json"
+        editor:
+          preview: false
+        fields:
+          - name: "about"
+            label: "센터 소개"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "programs"
+            label: "수업"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "pricing"
+            label: "가격"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "instructors"
+            label: "강사"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "reviews"
+            label: "후기"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "location"
+            label: "오시는 길"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "cta"
+            label: "예약·상담 (짧게)"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "cta_full"
+            label: "예약·상담 (길게)"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+      - name: "pricing"
+        label: "가격 안내"
+        file: "content/pricing.json"
+        editor:
+          preview: false
+        fields:
+          - name: "eyebrow"
+            label: "섹션 라벨 (Pricing)"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "title"
+            label: "가격 제목"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "desc"
+            label: "가격 설명"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "text" }
+              - { name: "en", label: "English", widget: "text" }
+              - { name: "ja", label: "日本語", widget: "text" }
+          - name: "trial_name"
+            label: "체험 · 이름"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "trial_unit"
+            label: "체험 · 단위"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "trial_desc"
+            label: "체험 · 설명"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "trial_l1"
+            label: "체험 · 항목1"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "trial_l2"
+            label: "체험 · 항목2"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "trial_l3"
+            label: "체험 · 항목3"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "trial_btn"
+            label: "체험 · 버튼"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "mem_name"
+            label: "개인레슨 · 이름"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "mem_price"
+            label: "개인레슨 · 가격"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "mem_desc"
+            label: "개인레슨 · 설명"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "mem_l1"
+            label: "개인레슨 · 항목1"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "mem_l2"
+            label: "개인레슨 · 항목2"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "mem_l3"
+            label: "개인레슨 · 항목3"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "mem_btn"
+            label: "개인레슨 · 버튼"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "group_name"
+            label: "그룹 · 이름"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "group_unit"
+            label: "그룹 · 단위"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "group_desc"
+            label: "그룹 · 설명"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "group_l1"
+            label: "그룹 · 항목1"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "group_l2"
+            label: "그룹 · 항목2"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "group_l3"
+            label: "그룹 · 항목3"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "group_btn"
+            label: "그룹 · 버튼"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "featured"
+            label: "인기 배지"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "string" }
+              - { name: "en", label: "English", widget: "string" }
+              - { name: "ja", label: "日本語", widget: "string" }
+          - name: "note"
+            label: "하단 안내문"
+            widget: "object"
+            fields:
+              - { name: "ko", label: "한국어", widget: "text" }
+              - { name: "en", label: "English", widget: "text" }
+              - { name: "ja", label: "日本語", widget: "text" }
+      - name: "prices"
+        label: "가격 금액 (숫자)"
+        file: "content/prices.json"
+        editor:
+          preview: false
+        fields:
+          - { name: "trial", label: "첫 방문 체험 금액 (원)", widget: "number", value_type: "int", min: 0 }
+          - { name: "group", label: "그룹 회원권 월 금액 (원)", widget: "number", value_type: "int", min: 0 }

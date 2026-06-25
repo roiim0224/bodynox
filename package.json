@@ -1,0 +1,15 @@
+{
+  "name": "bodynox-pilates-homepage",
+  "version": "1.0.0",
+  "description": "바디녹스필라테스 반응형 원페이지 홈페이지 (정적 사이트)",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes serve@latest . -l 5500",
+    "dev:python": "python3 -m http.server 5500",
+    "cms": "npx --yes decap-server",
+    "deploy": "npx --yes netlify-cli@latest deploy --prod --dir=.",
+    "deploy:draft": "npx --yes netlify-cli@latest deploy --dir=."
+  },
+  "keywords": ["pilates", "필라테스", "homepage", "static-site"],
+  "license": "UNLICENSED"
+}

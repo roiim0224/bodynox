@@ -1,0 +1,32 @@
+# =====================================================================
+# Netlify 배포 설정 — 빌드 단계 없이 정적 파일을 그대로 배포
+# (Netlify에 이 폴더를 드래그&드롭하거나 Git 연결하면 끝)
+# =====================================================================
+[build]
+  publish = "."
+  # 정적 사이트라 빌드 명령이 필요 없습니다.
+  # (선택) 서버리스 결제검증을 쓸 경우 functions 디렉터리:
+  functions = "netlify/functions"
+
+# 보안/캐시 헤더
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# node_modules 등은 배포에서 제외
+[build.processing]
+  skip_processing = false

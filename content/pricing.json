@@ -1,0 +1,132 @@
+{
+  "eyebrow": {
+    "ko": "Pricing",
+    "en": "Pricing",
+    "ja": "Pricing"
+  },
+  "title": {
+    "ko": "가격 안내",
+    "en": "Pricing",
+    "ja": "料金のご案内"
+  },
+  "desc": {
+    "ko": "시작 가격을 투명하게 안내드립니다. 상세 회원권·프로모션가는 상담 시 맞춤으로 제안해 드려요.",
+    "en": "Clear starting prices, up front. We tailor detailed membership and promotional rates to you during your consultation.",
+    "ja": "スタート時の料金を分かりやすくご案内します。詳しい会員プランやプロモーション価格は、ご相談時にお一人おひとりに合わせてご提案します。"
+  },
+  "trial_name": {
+    "ko": "첫 방문 체험",
+    "en": "First-Visit Trial",
+    "ja": "初回体験"
+  },
+  "trial_unit": {
+    "ko": "원 / 1회",
+    "en": "원 / session",
+    "ja": "원 / 1回"
+  },
+  "trial_desc": {
+    "ko": "상담 + 자세 분석 + 1:1 체험 수업",
+    "en": "Consultation + posture analysis + 1:1 trial class",
+    "ja": "相談 + 姿勢分析 + 1:1体験レッスン"
+  },
+  "trial_l1": {
+    "ko": "약 50분 1:1 체험",
+    "en": "About 50-min 1:1 trial",
+    "ja": "約50分の1:1体験"
+  },
+  "trial_l2": {
+    "ko": "운동 목표 상담",
+    "en": "Goal-setting consultation",
+    "ja": "運動目標のご相談"
+  },
+  "trial_l3": {
+    "ko": "등록 시 체험비 환급 혜택",
+    "en": "Trial fee credited back when you join",
+    "ja": "ご登録で体験料を返金する特典あり"
+  },
+  "trial_btn": {
+    "ko": "체험 예약하기",
+    "en": "Book a Trial",
+    "ja": "体験を予約する"
+  },
+  "mem_name": {
+    "ko": "개인 레슨 회원권",
+    "en": "Private Lesson Membership",
+    "ja": "プライベートレッスン会員プラン"
+  },
+  "mem_price": {
+    "ko": "상담 안내",
+    "en": "Ask in Consultation",
+    "ja": "ご相談にてご案内"
+  },
+  "mem_desc": {
+    "ko": "횟수제 / 기간제 · 장기 등록 할인",
+    "en": "By session or by term · long-term discounts",
+    "ja": "回数制 / 期間制 · 長期ご登録割引"
+  },
+  "mem_l1": {
+    "ko": "1:1 완전 맞춤 지도",
+    "en": "Fully personalized 1:1 coaching",
+    "ja": "1:1の完全オーダーメイド指導"
+  },
+  "mem_l2": {
+    "ko": "횟수권 10·20·30회",
+    "en": "Session packs of 10 · 20 · 30",
+    "ja": "回数券 10・20・30回"
+  },
+  "mem_l3": {
+    "ko": "라이프스타일 맞춤 시간",
+    "en": "Times to fit your lifestyle",
+    "ja": "ライフスタイルに合わせた時間設定"
+  },
+  "mem_btn": {
+    "ko": "상담 받기",
+    "en": "Get a Consultation",
+    "ja": "相談を受ける"
+  },
+  "group_name": {
+    "ko": "그룹 회원권",
+    "en": "Group Membership",
+    "ja": "グループ会員プラン"
+  },
+  "group_unit": {
+    "ko": "원 / 월~",
+    "en": "원 / month~",
+    "ja": "원 / 月～"
+  },
+  "group_desc": {
+    "ko": "주 N회 정기 그룹 수업",
+    "en": "Regular group classes, N times a week",
+    "ja": "週N回の定期グループレッスン"
+  },
+  "group_l1": {
+    "ko": "3–6인 소그룹",
+    "en": "Small groups of 3–6",
+    "ja": "3–6名の少人数グループ"
+  },
+  "group_l2": {
+    "ko": "매트·기구 병행",
+    "en": "Mat and equipment combined",
+    "ja": "マット・マシンを併用"
+  },
+  "group_l3": {
+    "ko": "온라인 간편결제 가능",
+    "en": "Easy online payment available",
+    "ja": "オンラインで簡単決済可能"
+  },
+  "group_btn": {
+    "ko": "바로 결제하기",
+    "en": "Pay Now",
+    "ja": "そのまま決済する"
+  },
+  "featured": {
+    "ko": "인기",
+    "en": "Popular",
+    "ja": "人気"
+  },
+  "note": {
+    "ko": "표시 금액은 부가세 포함 예시이며, 실제 가격·프로모션은 변동될 수 있습니다. 자세한 회원권 구성은 상담을 통해 안내드립니다.",
+    "en": "Prices shown are examples including VAT; actual prices and promotions may change. Detailed membership options are explained during your consultation.",
+    "ja": "表示金額は消費税込みの例であり、実際の価格やプロモーションは変更となる場合があります。詳しい会員プランの構成はご相談を通じてご案内します。"
+  }
+}

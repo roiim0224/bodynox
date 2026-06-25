@@ -1,0 +1,34 @@
+# BODYNOX PILATES — robots.txt
+# 일반 검색엔진
+User-agent: *
+Allow: /
+Disallow: /privacy.html
+Disallow: /terms.html
+Disallow: /admin/
+
+# AI 답변 엔진 크롤러 명시적 허용 (GEO: ChatGPT·Gemini·Claude 등이 콘텐츠를 인용하도록)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://www.bodynox.com/sitemap.xml

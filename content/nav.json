@@ -1,0 +1,42 @@
+{
+  "about": {
+    "ko": "센터 소개",
+    "en": "About",
+    "ja": "スタジオ紹介"
+  },
+  "programs": {
+    "ko": "수업",
+    "en": "Classes",
+    "ja": "レッスン"
+  },
+  "pricing": {
+    "ko": "가격",
+    "en": "Pricing",
+    "ja": "料金"
+  },
+  "instructors": {
+    "ko": "강사",
+    "en": "Instructors",
+    "ja": "インストラクター"
+  },
+  "reviews": {
+    "ko": "후기",
+    "en": "Reviews",
+    "ja": "お客様の声"
+  },
+  "location": {
+    "ko": "오시는 길",
+    "en": "Find Us",
+    "ja": "アクセス"
+  },
+  "cta": {
+    "ko": "예약 · 상담",
+    "en": "Book · Consult",
+    "ja": "予約 · 相談"
+  },
+  "cta_full": {
+    "ko": "예약 · 상담하기",
+    "en": "Book a Consultation",
+    "ja": "予約 · 相談する"
+  }
+}
