@@ -1,19 +1,14 @@
 {
-  "updatedAt": "2026-07-09T13:40:00+09:00",
-  "sample": true,
+  "updatedAt": "2026-07-10T00:20:29+09:00",
+  "sample": false,
   "branches": [
     {
       "id": "bodycodi",
       "name": "1지점 · 바디코디",
       "source": "crm.bodycodi.com",
-      "status": "ok",
-      "error": null,
-      "classes": [
-        { "date": "2026-07-09", "start": "07:00", "end": "07:50", "title": "모닝 그룹 리포머", "instructor": "김하늘", "capacity": 5, "booked": 5, "status": "full" },
-        { "date": "2026-07-09", "start": "10:00", "end": "10:50", "title": "개인 레슨", "instructor": "이서준", "capacity": 1, "booked": 1, "status": "confirmed" },
-        { "date": "2026-07-09", "start": "13:00", "end": "13:50", "title": "그룹 매트", "instructor": "김하늘", "capacity": 6, "booked": 3, "status": "confirmed" },
-        { "date": "2026-07-09", "start": "19:00", "end": "19:50", "title": "이브닝 리포머", "instructor": "박지민", "capacity": 5, "booked": 4, "status": "confirmed" }
-      ]
+      "status": "error",
+      "error": "로그인 실패(비번칸 유지) url=https://crm.bodycodi.com/ title=BODY CODI text=(주)레드블루 사업자 등록번호 : 844-86-00156 대표이사 : 이석훈 주소 : 서울시 서초구 반포대로22길 39 하품싱글즈 2층 전화번호 : 02-598-6061 센터의 성공, 바디코디와 함께 아이디 저장 로그인 회원가입 아이디 찾기",
+      "classes": []
     },
     {
       "id": "studiomate",
@@ -22,22 +17,145 @@
       "status": "ok",
       "error": null,
       "classes": [
-        { "date": "2026-07-09", "start": "09:00", "end": "09:50", "title": "그룹 리포머 A", "instructor": "최유나", "capacity": 4, "booked": 2, "status": "confirmed" },
-        { "date": "2026-07-09", "start": "11:00", "end": "11:50", "title": "필라테스 기구", "instructor": "정민재", "capacity": 4, "booked": 4, "status": "full" },
-        { "date": "2026-07-09", "start": "18:00", "end": "18:50", "title": "직장인 저녁반", "instructor": "최유나", "capacity": 6, "booked": 5, "status": "confirmed" }
+        {
+          "date": "2026-07-10",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-10",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-11",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-12",
+          "start": "09:00",
+          "end": "09:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-12",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        }
       ]
     },
     {
       "id": "butfit",
       "name": "3지점 · 버핏",
       "source": "care.butfit.io",
-      "status": "ok",
-      "error": null,
-      "classes": [
-        { "date": "2026-07-09", "start": "08:00", "end": "08:50", "title": "PT 세션", "instructor": "한소희", "capacity": 1, "booked": 1, "status": "confirmed" },
-        { "date": "2026-07-09", "start": "14:00", "end": "14:50", "title": "소그룹 코어", "instructor": "오지훈", "capacity": 3, "booked": 1, "status": "confirmed" },
-        { "date": "2026-07-09", "start": "20:00", "end": "20:50", "title": "야간 리포머", "instructor": "한소희", "capacity": 5, "booked": 0, "status": "confirmed" }
-      ]
+      "status": "error",
+      "error": "로그인 실패(비번칸 유지) url=https://care.butfit.io/login title=버핏케어 : 로그인 text=©2026 BUTFITSEOUL. All Rights Reserved. 관리자 로그인 휴대전화번호 ('-' 제외) 비밀번호 로그인 관리자 권한이 없는 경우, 고객 센터로 문의하여 계정을 생성해 주세요.",
+      "classes": []
     }
   ]
 }
