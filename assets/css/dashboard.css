@@ -1,0 +1,147 @@
+/* =====================================================================
+   BODYNOX — 지점 스케줄 대시보드 (내부 관리자용)
+   홈페이지(style.css)의 디자인 토큰·버튼·카드를 그대로 계승합니다.
+   ===================================================================== */
+
+body.dash { background: var(--paper); min-height: 100vh; }
+
+/* ---------- 상단 바 ---------- */
+.dash-header {
+  position: sticky; top: 0; z-index: 100;
+  background: color-mix(in srgb, var(--paper) 86%, transparent);
+  backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.dash-header__inner {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; height: var(--header-h); flex-wrap: wrap;
+}
+.dash-brand { display: inline-flex; align-items: center; gap: .7rem; }
+.dash-brand img { height: 28px; width: auto; display: block; }
+.dash-brand .divider { width: 1px; height: 22px; background: var(--line-strong); }
+.dash-brand .title {
+  font-weight: 700; font-size: 1.05rem; letter-spacing: -0.02em; color: var(--ink);
+}
+.dash-brand .title small {
+  display: block; font-family: var(--font-en); font-size: .58rem; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--accent-strong); font-weight: 700; margin-top: 1px;
+}
+.dash-header__actions { display: inline-flex; align-items: center; gap: .8rem; }
+.dash-updated { font-size: var(--fs-xs); color: var(--muted); text-align: right; line-height: 1.4; }
+.dash-updated b { color: var(--ink-soft); font-weight: 600; }
+
+/* 새로고침 버튼 회전 아이콘 */
+.btn .spin { transition: transform .5s var(--ease); }
+.btn.is-loading .spin { animation: dash-spin .8s linear infinite; }
+@keyframes dash-spin { to { transform: rotate(360deg); } }
+
+/* ---------- 툴바(날짜 이동) ---------- */
+.dash-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; flex-wrap: wrap; margin-block: clamp(1.5rem, 4vw, 2.4rem) 1.2rem;
+}
+.date-nav { display: inline-flex; align-items: center; gap: .5rem; }
+.date-nav__btn {
+  width: 44px; height: 44px; border-radius: 12px; border: 1.5px solid var(--line-strong);
+  background: var(--white); display: grid; place-items: center; color: var(--ink);
+  transition: border-color var(--dur), background var(--dur), transform var(--dur);
+}
+.date-nav__btn:hover { border-color: var(--ink); transform: translateY(-1px); }
+.date-nav__btn svg { width: 18px; height: 18px; }
+.date-nav__label { min-width: 12.5rem; text-align: center; }
+.date-nav__label .d { font-weight: 700; font-size: 1.15rem; letter-spacing: -0.02em; }
+.date-nav__label .w { font-size: var(--fs-xs); color: var(--muted); margin-top: 1px; }
+.date-nav__label .w.today { color: var(--accent-strong); font-weight: 700; }
+.btn--today {
+  padding: .6rem 1.1rem; min-height: 44px; border-radius: var(--radius-pill);
+  border: 1.5px solid var(--line-strong); background: var(--white); font-weight: 600; font-size: var(--fs-sm);
+}
+.btn--today:hover { border-color: var(--ink); }
+
+/* ---------- 지점 상태 요약 ---------- */
+.branch-status { display: grid; grid-template-columns: 1fr; gap: .7rem; margin-bottom: 1.4rem; }
+.branch-pill {
+  display: flex; align-items: center; gap: .8rem; padding: .8rem 1.1rem;
+  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius);
+}
+.branch-pill .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; background: var(--muted-2); }
+.branch-pill.ok .dot { background: var(--ok); box-shadow: 0 0 0 4px color-mix(in srgb, var(--ok) 18%, transparent); }
+.branch-pill.error .dot { background: var(--err); box-shadow: 0 0 0 4px color-mix(in srgb, var(--err) 18%, transparent); }
+.branch-pill.stale .dot { background: #c98a1e; box-shadow: 0 0 0 4px rgba(201,138,30,.18); }
+.branch-pill .bp-name { font-weight: 700; font-size: var(--fs-sm); }
+.branch-pill .bp-src { font-size: var(--fs-xs); color: var(--muted-2); font-family: var(--font-en); }
+.branch-pill .bp-meta { margin-left: auto; text-align: right; }
+.branch-pill .bp-count { font-weight: 700; font-family: var(--font-en); }
+.branch-pill .bp-count small { font-family: var(--font-kr); font-weight: 500; color: var(--muted); font-size: var(--fs-xs); }
+.branch-pill .bp-state { font-size: var(--fs-xs); }
+.branch-pill.ok .bp-state { color: var(--ok); }
+.branch-pill.error .bp-state { color: var(--err); font-weight: 600; }
+.branch-pill.stale .bp-state { color: #a9741a; }
+
+/* ---------- 보드(지점별 컬럼) ---------- */
+.board { display: grid; grid-template-columns: 1fr; gap: 1rem; align-items: start; }
+.board__col {
+  background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 1rem; min-height: 8rem;
+}
+.board__col-head {
+  display: flex; align-items: center; gap: .6rem; padding: .2rem .3rem .9rem;
+  border-bottom: 1px solid var(--line); margin-bottom: .9rem;
+}
+.board__col-head .cdot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.board__col-head h3 { font-size: 1rem; }
+.board__col-head .cnt { margin-left: auto; font-size: var(--fs-xs); color: var(--muted); font-family: var(--font-en); font-weight: 600; }
+
+.cls-list { display: grid; gap: .7rem; }
+.cls-card {
+  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: .85rem 1rem; transition: box-shadow var(--dur), border-color var(--dur), transform var(--dur);
+}
+.cls-card:hover { box-shadow: var(--shadow-sm); border-color: var(--line-strong); }
+.cls-card__top { display: flex; align-items: baseline; gap: .6rem; }
+.cls-card__time { font-family: var(--font-en); font-weight: 700; font-size: .98rem; color: var(--ink); letter-spacing: -0.01em; }
+.cls-card__time .end { color: var(--muted-2); font-weight: 500; font-size: .8rem; }
+.cls-badge {
+  margin-left: auto; font-size: .68rem; font-weight: 700; padding: .18rem .5rem; border-radius: var(--radius-pill);
+  letter-spacing: .02em;
+}
+.cls-badge.full { background: var(--accent-soft); color: var(--accent-strong); }
+.cls-badge.cancelled { background: #f3e4e3; color: var(--err); }
+.cls-card__title { font-weight: 700; font-size: var(--fs-sm); margin-top: .4rem; }
+.cls-card__meta { display: flex; align-items: center; gap: .5rem 1rem; flex-wrap: wrap; margin-top: .35rem; font-size: var(--fs-xs); color: var(--muted); }
+.cls-card__meta .who { display: inline-flex; align-items: center; gap: .3rem; }
+.cls-card__meta .who svg { width: 13px; height: 13px; }
+/* 정원 게이지 */
+.cap { display: flex; align-items: center; gap: .5rem; margin-top: .6rem; }
+.cap__bar { flex: 1; height: 6px; border-radius: 999px; background: var(--paper-3); overflow: hidden; }
+.cap__fill { height: 100%; border-radius: 999px; background: var(--accent); transition: width var(--dur) var(--ease); }
+.cap__fill.is-full { background: var(--ink); }
+.cap__num { font-family: var(--font-en); font-size: var(--fs-xs); color: var(--muted); font-weight: 600; flex: none; }
+
+/* 컬럼 비었을 때 / 오류 */
+.col-empty, .col-error {
+  text-align: center; padding: 1.8rem 1rem; font-size: var(--fs-sm); color: var(--muted); border-radius: var(--radius);
+}
+.col-error { color: var(--err); background: #fbf1f0; border: 1px dashed color-mix(in srgb, var(--err) 40%, var(--line)); }
+.col-error small { display: block; color: var(--muted-2); margin-top: .3rem; font-size: var(--fs-xs); }
+
+/* ---------- 상태(로딩/에러) 배너 ---------- */
+.dash-banner {
+  border-radius: var(--radius); padding: .9rem 1.1rem; font-size: var(--fs-sm);
+  display: flex; align-items: center; gap: .7rem; margin-bottom: 1.2rem;
+}
+.dash-banner.info { background: var(--accent-soft); color: var(--accent-strong); }
+.dash-banner.warn { background: #fbf4e6; color: #8a5a12; border: 1px solid #e6d6ad; }
+.dash-banner svg { width: 18px; height: 18px; flex: none; }
+.dash-banner.hidden { display: none; }
+
+.dash-foot { margin-top: 3rem; padding-block: 2rem; border-top: 1px solid var(--line); font-size: var(--fs-xs); color: var(--muted); text-align: center; }
+.dash-foot a { color: var(--accent-strong); text-decoration: underline; }
+
+/* ---------- 반응형 ---------- */
+@media (min-width: 700px) {
+  .branch-status { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 980px) {
+  .board { grid-template-columns: repeat(3, 1fr); }
+}

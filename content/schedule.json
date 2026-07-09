@@ -1,0 +1,43 @@
+{
+  "updatedAt": "2026-07-09T13:40:00+09:00",
+  "sample": true,
+  "branches": [
+    {
+      "id": "bodycodi",
+      "name": "1지점 · 바디코디",
+      "source": "crm.bodycodi.com",
+      "status": "ok",
+      "error": null,
+      "classes": [
+        { "date": "2026-07-09", "start": "07:00", "end": "07:50", "title": "모닝 그룹 리포머", "instructor": "김하늘", "capacity": 5, "booked": 5, "status": "full" },
+        { "date": "2026-07-09", "start": "10:00", "end": "10:50", "title": "개인 레슨", "instructor": "이서준", "capacity": 1, "booked": 1, "status": "confirmed" },
+        { "date": "2026-07-09", "start": "13:00", "end": "13:50", "title": "그룹 매트", "instructor": "김하늘", "capacity": 6, "booked": 3, "status": "confirmed" },
+        { "date": "2026-07-09", "start": "19:00", "end": "19:50", "title": "이브닝 리포머", "instructor": "박지민", "capacity": 5, "booked": 4, "status": "confirmed" }
+      ]
+    },
+    {
+      "id": "studiomate",
+      "name": "2지점 · 스튜디오메이트",
+      "source": "pilatesh1.studiomate.kr",
+      "status": "ok",
+      "error": null,
+      "classes": [
+        { "date": "2026-07-09", "start": "09:00", "end": "09:50", "title": "그룹 리포머 A", "instructor": "최유나", "capacity": 4, "booked": 2, "status": "confirmed" },
+        { "date": "2026-07-09", "start": "11:00", "end": "11:50", "title": "필라테스 기구", "instructor": "정민재", "capacity": 4, "booked": 4, "status": "full" },
+        { "date": "2026-07-09", "start": "18:00", "end": "18:50", "title": "직장인 저녁반", "instructor": "최유나", "capacity": 6, "booked": 5, "status": "confirmed" }
+      ]
+    },
+    {
+      "id": "butfit",
+      "name": "3지점 · 버핏",
+      "source": "care.butfit.io",
+      "status": "ok",
+      "error": null,
+      "classes": [
+        { "date": "2026-07-09", "start": "08:00", "end": "08:50", "title": "PT 세션", "instructor": "한소희", "capacity": 1, "booked": 1, "status": "confirmed" },
+        { "date": "2026-07-09", "start": "14:00", "end": "14:50", "title": "소그룹 코어", "instructor": "오지훈", "capacity": 3, "booked": 1, "status": "confirmed" },
+        { "date": "2026-07-09", "start": "20:00", "end": "20:50", "title": "야간 리포머", "instructor": "한소희", "capacity": 5, "booked": 0, "status": "confirmed" }
+      ]
+    }
+  ]
+}
