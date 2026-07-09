@@ -1,53 +1,54 @@
-// 2지점 · 스튜디오메이트 (pilatesh1.studiomate.kr)
-// 로그인 폼(실측): #identity(휴대폰) + #password + button[type=submit]
-// 스케줄 화면 구조는 로그인 후 확정 예정 → 우선 널리 쓰이는 캘린더(DHTMLX/FullCalendar)
-// 자동 감지 방식으로 추출을 시도하고, 실패 시 진단 메시지를 남긴다.
+// 2지점 · 스튜디오메이트 (pilatesh1.studiomate.kr) — 서울역점
+// 로그인(실측): #identity(휴대폰) + #password + button[type=submit]
+// 스케줄(실측): FullCalendar. 단, 날짜가 컬럼이 아니라 각 이벤트 텍스트에 포함됨.
+//   이벤트 leaf 텍스트 순서 예:
+//   ["2026. 7. 6. (월)","10:00~10:50","1/5","김주아 강사님","그룹수업","김주아","강사", ...]
+//   ["2026. 7. 6. (월)","10:00~10:50","개인","김태완 님","프라이빗수업","채수진","강사", ...]
+//   → 개인정보(회원명)는 담지 않고 종류/시간/강사/정원만 추출.
 "use strict";
 const U = require("./util");
 
-const LOGIN_URL = "https://pilatesh1.studiomate.kr/login";
 const SCHEDULE_URL = "https://pilatesh1.studiomate.kr/schedule";
 
-async function extractGeneric(page) {
-  await page.waitForTimeout(1500);
+async function readEvents(page) {
+  await page.waitForSelector(".fc-event, .fc-timegrid-event", { timeout: 20000 }).catch(function () {});
+  await page.waitForTimeout(1000);
   return await page.evaluate(function () {
-    function pad(n) { return (n < 10 ? "0" : "") + n; }
-    var out = [];
-
-    // 1) DHTMLX Scheduler
-    if (typeof window.scheduler !== "undefined" && window.scheduler.getEvents) {
-      (window.scheduler.getEvents() || []).forEach(function (e) {
-        var d = e.start_date, en = e.end_date;
-        out.push({
-          date: d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()),
-          start: pad(d.getHours()) + ":" + pad(d.getMinutes()),
-          end: pad(en.getHours()) + ":" + pad(en.getMinutes()),
-          text: String(e.text || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim(),
-        });
+    return [].slice.call(document.querySelectorAll(".fc-event, .fc-timegrid-event, .fc-daygrid-event"))
+      .map(function (ev) {
+        return [].slice.call(ev.querySelectorAll("*"))
+          .filter(function (n) { return n.children.length === 0 && n.textContent.trim(); })
+          .map(function (n) { return n.textContent.replace(/\s+/g, " ").trim(); })
+          .filter(function (t, i, a) { return t !== a[i - 1]; });
       });
-      return { lib: "dhtmlx", rows: out };
-    }
+  });
+}
 
-    // 2) FullCalendar
-    var cols = document.querySelectorAll(".fc-timegrid-col[data-date], .fc-daygrid-day[data-date]");
-    if (cols.length) {
-      cols.forEach(function (col) {
-        var date = col.getAttribute("data-date");
-        col.querySelectorAll(".fc-event, .fc-timegrid-event, .fc-daygrid-event").forEach(function (ev) {
-          var texts = [].slice.call(ev.querySelectorAll("*"))
-            .filter(function (n) { return n.children.length === 0 && n.textContent.trim(); })
-            .map(function (n) { return n.textContent.replace(/\s+/g, " ").trim(); });
-          out.push({ date: date, texts: texts });
-        });
-      });
-      return { lib: "fullcalendar", rows: out };
-    }
+function parseEvent(texts) {
+  var dateT = texts.find(function (t) { return /\d{4}\.\s*\d{1,2}\.\s*\d{1,2}\./.test(t); });
+  var timeT = texts.find(function (t) { return /\d{1,2}:\d{2}\s*[~-]\s*\d{1,2}:\d{2}/.test(t); });
+  if (!dateT || !timeT) return null;
+  var dm = dateT.match(/(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\./);
+  var date = dm[1] + "-" + U.pad(+dm[2]) + "-" + U.pad(+dm[3]);
+  var rng = U.splitRange(timeT);
 
-    // 3) 미확인 — 진단용 힌트 반환
-    var timeBlocks = [].slice.call(document.querySelectorAll("*"))
-      .filter(function (el) { return /\d{1,2}:\d{2}\s*[-~]\s*\d{1,2}:\d{2}/.test(el.textContent) && el.querySelectorAll("*").length <= 6; })
-      .length;
-    return { lib: "unknown", rows: [], hint: { timeBlocks: timeBlocks, hasFc: !!document.querySelector(".fc"), url: location.pathname } };
+  var joined = texts.join(" ");
+  var isPrivate = /프라이빗|개인/.test(joined);
+  var typeT = texts.find(function (t) { return /^(그룹수업|프라이빗수업|상담|기타일정)$/.test(t); });
+  var title = typeT ? (typeT === "프라이빗수업" ? "개인수업" : typeT) : (isPrivate ? "개인수업" : "수업");
+
+  var countT = texts.find(function (t) { return /^\d+\s*\/\s*\d+$/.test(t); });
+  var cnt = countT ? U.splitCount(countT) : { booked: isPrivate ? 1 : null, capacity: isPrivate ? 1 : null };
+
+  var instructor = "";
+  var tt = texts.find(function (t) { return /\s강사님$/.test(t); });
+  if (tt) instructor = tt.replace(/\s*강사님$/, "").trim();
+  else { var gi = texts.indexOf("강사"); if (gi > 0) instructor = texts[gi - 1]; }
+
+  return U.normClass({
+    date: date, start: rng.start, end: rng.end,
+    title: title, instructor: instructor,
+    booked: cnt.booked, capacity: cnt.capacity,
   });
 }
 
@@ -64,30 +65,25 @@ module.exports = {
       userSelector: "#identity", passSelector: "#password", submitSelector: "button[type=submit]",
     });
 
-    var res = await extractGeneric(page);
-    if (res.lib === "unknown") {
-      throw new Error("스케줄 화면 구조 미확인(로그인 후 점검 필요) hint=" + JSON.stringify(res.hint));
+    var seen = {};
+    var out = [];
+    function add(rowsTexts) {
+      rowsTexts.forEach(function (texts) {
+        var c = parseEvent(texts);
+        if (!c || !c.start || !c.date) return;
+        var key = c.date + c.start + c.title + c.instructor;
+        if (!seen[key]) { seen[key] = 1; out.push(c); }
+      });
     }
 
-    var out = [];
-    res.rows.forEach(function (r) {
-      var c;
-      if (res.lib === "dhtmlx") {
-        var parts = (r.text || "").split(" / ");
-        var cnt = U.splitCount(r.text);
-        c = U.normClass({ date: r.date, start: r.start, end: r.end, title: parts[0], instructor: parts[1] || "", booked: cnt.booked, capacity: cnt.capacity });
-      } else {
-        var texts = r.texts || [];
-        var timeT = texts.find(function (t) { return /\d{1,2}:\d{2}\s*[-~]\s*\d{1,2}:\d{2}/.test(t); }) || "";
-        var rng = U.splitRange(timeT);
-        var cIdx = -1; for (var i = texts.length - 1; i >= 0; i--) { if (/^\d+\s*\/\s*\d+$/.test(texts[i])) { cIdx = i; break; } }
-        var cnt2 = cIdx >= 0 ? U.splitCount(texts[cIdx]) : { booked: null, capacity: null };
-        var name = cIdx > 0 ? texts[cIdx - 1] : "";
-        var mid = texts.slice(texts.indexOf(timeT) + 1, cIdx > 0 ? cIdx - 1 : texts.length).filter(Boolean);
-        c = U.normClass({ date: r.date, start: rng.start, end: rng.end, title: (mid[mid.length - 1] || mid[0] || "수업"), instructor: name, booked: cnt2.booked, capacity: cnt2.capacity });
-      }
-      if (c.start) out.push(c);
-    });
+    add(await readEvents(page));
+
+    // 다음 주(가능하면). 커스텀 '▶' 또는 FullCalendar next 버튼
+    try {
+      var next = await page.$(".fc-next-button, [aria-label='next']");
+      if (!next) next = await page.$("xpath=//button[normalize-space(.)='▶' or contains(@class,'next')]");
+      if (next) { await next.click(); await page.waitForTimeout(1800); add(await readEvents(page)); }
+    } catch (e) { /* 이번 주만 반환 */ }
 
     var today = U.todayYmd();
     return out.filter(function (c) { return c.date >= today; });
