@@ -52,7 +52,9 @@ async function main() {
 
     let entry = { id: m.id, name: m.name, source: m.source, status: "ok", error: null, classes: [] };
     try {
-      console.log("[" + m.id + "] 수집 시작…");
+      console.log("[" + m.id + "] 수집 시작… (자격증명 길이 user=" + (site.creds.user || "").length +
+        " pass=" + (site.creds.pass || "").length +
+        (site.creds.viewPass !== undefined ? " viewPass=" + (site.creds.viewPass || "").length : "") + ")");
       const classes = await m.collect(page, site.creds, range);
       entry.classes = (classes || []).filter(Boolean);
       console.log("[" + m.id + "] 수업 " + entry.classes.length + "건");
