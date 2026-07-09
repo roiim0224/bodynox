@@ -60,6 +60,13 @@ async function main() {
       entry.status = "error";
       entry.error = String(err && err.message ? err.message : err).slice(0, 200);
       console.error("[" + m.id + "] 실패:", entry.error);
+      // 진단용 스크린샷/HTML (CI 아티팩트로 업로드 → 로그인 화면 등 확인)
+      try {
+        const dbg = path.join(__dirname, "debug");
+        fs.mkdirSync(dbg, { recursive: true });
+        await page.screenshot({ path: path.join(dbg, m.id + ".png"), fullPage: true });
+        fs.writeFileSync(path.join(dbg, m.id + ".html"), await page.content(), "utf8");
+      } catch (e2) { console.error("  (디버그 저장 실패:", String(e2).slice(0, 80) + ")"); }
     }
     branches.push(entry);
     await context.close();

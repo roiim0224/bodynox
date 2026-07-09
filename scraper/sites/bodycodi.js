@@ -1,10 +1,46 @@
 // 1지점 · 바디코디 (crm.bodycodi.com)
-// 로그인: 자체 이메일/비밀번호 + (내부 지점만 보기) 보기 비밀번호
+// 그룹수업 스케줄러는 DHTMLX Scheduler 라이브러리 사용 → 페이지의 scheduler.getEvents()
+// 에서 날짜·시간·수업명·강사·정원·마감여부를 정확히 읽는다. (실측 확인됨)
 //
-// ⚠️ 아래 SELECTOR/추출 로직은 실제 로그인 화면을 확인한 뒤 채워집니다.
-//    현재는 "미구현" 상태로, 실행 시 이 지점은 '연결 오류'로 표시됩니다(정직한 실패).
+// text 형식: "Reformer-full body / 김지은 / 4명/5명"  ( 수업명 / 강사 / 예약명/정원명 )
+// badgeState: "full"(마감) | "less"(여유)
 "use strict";
 const U = require("./util");
+
+const SCHEDULE_URL = "https://crm.bodycodi.com/manager/schedule/class";
+
+async function readWeek(page) {
+  // DHTMLX scheduler 로드 대기
+  await page.waitForFunction(function () {
+    return typeof window.scheduler !== "undefined" && window.scheduler.getEvents;
+  }, { timeout: 20000 });
+  await page.waitForTimeout(800);
+  return await page.evaluate(function () {
+    return (window.scheduler.getEvents() || []).map(function (e) {
+      return {
+        s: +e.start_date, e: +e.end_date,
+        text: String(e.text || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim(),
+        badge: String(e.badgeState || ""),
+        svc: String(e.serviceType || ""),
+      };
+    });
+  });
+}
+
+function parseEvent(ev) {
+  var d = new Date(ev.s), e = new Date(ev.e);
+  var parts = ev.text.split(" / ");
+  var cnt = U.splitCount(ev.text);
+  return U.normClass({
+    date: U.ymd(d),
+    start: U.pad(d.getHours()) + ":" + U.pad(d.getMinutes()),
+    end: U.pad(e.getHours()) + ":" + U.pad(e.getMinutes()),
+    title: parts[0] || "수업",
+    instructor: parts[1] || "",
+    booked: cnt.booked, capacity: cnt.capacity,
+    status: ev.badge === "full" ? "full" : "confirmed",
+  });
+}
 
 module.exports = {
   id: "bodycodi",
@@ -15,21 +51,30 @@ module.exports = {
   async collect(page, creds, range) {
     if (!creds.user || !creds.pass) throw new Error("로그인 정보(BODYCODI_USER/PASS) 미설정");
 
-    // --- 로그인 ---
-    await page.goto("https://crm.bodycodi.com/manager/schedule/class", { waitUntil: "networkidle" });
-    // TODO(inspection): 로그인 폼 셀렉터 확정
-    //   await page.fill('input[type=email], input[name=email]', creds.user);
-    //   await page.fill('input[type=password]', creds.pass);
-    //   await page.click('button[type=submit]');
-    //   await page.waitForLoadState('networkidle');
-    // 내부 지점 보기 비밀번호(있을 경우)
-    //   if (creds.viewPass) { ... }
+    await U.ensureAuthed(page, SCHEDULE_URL, creds);
 
-    // --- 스케줄 추출 ---
-    // TODO(inspection): 스케줄 API(우선) 또는 DOM에서 수업 목록 추출 후 U.normClass 로 정규화
-    throw new Error("추출 로직 미구현 — 로그인 화면 점검 후 연결 예정");
+    var seen = {};
+    var out = [];
+    function add(list) {
+      list.forEach(function (ev) {
+        var c = parseEvent(ev);
+        var key = c.date + c.start + c.title;
+        if (!seen[key]) { seen[key] = 1; out.push(c); }
+      });
+    }
 
-    // 예시 반환 형태:
-    // return classes.map(U.normClass);
+    // 이번 주
+    add(await readWeek(page));
+
+    // 다음 주(가능하면). DHTMLX 기본 next 버튼 또는 커스텀 화살표 클릭
+    try {
+      var next = await page.$(".dhx_cal_next_button");
+      if (!next) next = await page.$("xpath=//*[normalize-space(.)='▶' or contains(@class,'next')]");
+      if (next) { await next.click(); await page.waitForTimeout(1500); add(await readWeek(page)); }
+    } catch (e) { /* 다음 주 실패해도 이번 주는 반환 */ }
+
+    // 오늘 이후만
+    var today = U.todayYmd();
+    return out.filter(function (c) { return c.date >= today; });
   },
 };
