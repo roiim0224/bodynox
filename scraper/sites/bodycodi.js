@@ -51,7 +51,7 @@ module.exports = {
   async collect(page, creds, range) {
     if (!creds.user || !creds.pass) throw new Error("로그인 정보(BODYCODI_USER/PASS) 미설정");
 
-    await U.ensureAuthed(page, SCHEDULE_URL, creds);
+    await U.ensureAuthed(page, SCHEDULE_URL, creds, { tag: "bodycodi" });
 
     var seen = {};
     var out = [];

@@ -73,39 +73,64 @@ function normClass(c) {
 // ---------------------------------------------------------------------
 async function ensureAuthed(page, url, creds, opts) {
   opts = opts || {};
-  await page.goto(url, { waitUntil: "networkidle" }).catch(function () {});
-  var pwd = await page.$(opts.passSelector || "input[type=password]");
-  if (!pwd) return true; // 이미 로그인됨(스케줄 화면)
+  var passSel = opts.passSelector || "input[type=password]";
+  var id = opts.tag || "";
+
+  await page.goto(url, { waitUntil: "domcontentloaded" }).catch(function () {});
+  await page.waitForTimeout(2500);
+
+  var pwd = await page.$(passSel);
+  if (!pwd) { console.log("  [" + id + "] 이미 로그인 상태"); return true; }
+  console.log("  [" + id + "] 로그인 폼 감지 url=" + page.url());
 
   // 아이디/휴대폰 입력칸
-  if (opts.userSelector) {
-    await page.fill(opts.userSelector, creds.user);
-  } else {
-    var uField = await page.$(
-      "input#identity, input[type=tel], input[name*=phone i], input[name*=mobile i], " +
-      "input[name*=id i], input[type=email], input[name*=email i], input[type=text]"
-    );
-    if (!uField) throw new Error("아이디 입력칸을 찾지 못함(로그인 폼 변경?)");
-    await uField.fill(creds.user);
-  }
+  var uSel = opts.userSelector ||
+    "input#identity, input[type=tel], input[name*='phone' i], input[name*='mobile' i], " +
+    "input[name*='id' i], input[type=email], input[name*='email' i], input[type=text]";
+  var uField = await page.$(uSel);
+  if (!uField) throw new Error("아이디 입력칸 못 찾음 url=" + page.url());
+  await uField.click({ clickCount: 3 }).catch(function () {});
+  await uField.fill("");
+  await uField.type(String(creds.user), { delay: 25 });
+  await pwd.click().catch(function () {});
+  await pwd.fill("");
+  await pwd.type(String(creds.pass), { delay: 25 });
+  console.log("  [" + id + "] 입력 완료");
 
-  await pwd.fill(creds.pass);
-
-  // 제출
+  // 제출 (버튼 활성화 대기 후 클릭)
+  await page.waitForTimeout(500);
   var submit = await page.$(opts.submitSelector || "button[type=submit], input[type=submit]");
   if (!submit) {
-    submit = await page.$("xpath=//button[contains(normalize-space(.), '로그인')] | //a[contains(normalize-space(.), '로그인')]");
+    submit = await page.$("xpath=//button[contains(normalize-space(.), '로그인') or contains(translate(normalize-space(.),'LOGIN','login'),'login')]");
   }
-  if (submit) { await submit.click().catch(function () {}); }
+  if (submit) { await submit.click({ force: true }).catch(function () {}); }
   else { await pwd.press("Enter"); }
+  console.log("  [" + id + "] 제출");
 
-  await page.waitForLoadState("networkidle").catch(function () {});
-  await page.waitForTimeout(1500);
+  // 성공 신호: 비밀번호 입력칸이 사라짐(폼이 앱 화면으로 대체)
+  var ok = false;
+  try {
+    await page.waitForSelector(passSel, { state: "detached", timeout: 15000 });
+    ok = true;
+  } catch (e) {
+    await page.waitForTimeout(2500);
+    if (!(await page.$(passSel))) ok = true;
+  }
 
-  // 재확인: 다시 대상 URL 로 가서 비밀번호 화면이면 실패
-  await page.goto(url, { waitUntil: "networkidle" }).catch(function () {});
-  if (await page.$(opts.passSelector || "input[type=password]")) {
-    throw new Error("로그인 실패(로그인 화면 유지) — 자격증명 또는 폼 확인 필요");
+  if (!ok) {
+    var title = "";
+    try { title = await page.title(); } catch (e) {}
+    var snip = "";
+    try { snip = await page.evaluate(function () { return document.body ? document.body.innerText.replace(/\s+/g, " ").trim().slice(0, 220) : ""; }); } catch (e) {}
+    throw new Error("로그인 실패(비번칸 유지) url=" + page.url() + " title=" + title + " text=" + snip);
+  }
+  console.log("  [" + id + "] 로그인 성공 url=" + page.url());
+
+  // 스케줄 페이지 보장
+  var want = new URL(url).pathname;
+  if (page.url().indexOf(want) === -1) {
+    await page.goto(url, { waitUntil: "domcontentloaded" }).catch(function () {});
+    await page.waitForTimeout(2500);
   }
   return true;
 }

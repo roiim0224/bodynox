@@ -55,7 +55,7 @@ module.exports = {
   async collect(page, creds, range) {
     if (!creds.user || !creds.pass) throw new Error("로그인 정보(BUTFIT_USER/PASS) 미설정");
 
-    await U.ensureAuthed(page, CAL_URL, creds);
+    await U.ensureAuthed(page, CAL_URL, creds, { tag: "butfit" });
 
     var seen = {};
     var out = [];

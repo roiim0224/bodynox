@@ -62,7 +62,7 @@ module.exports = {
     if (!creds.user || !creds.pass) throw new Error("로그인 정보(STUDIOMATE_USER/PASS) 미설정");
 
     await U.ensureAuthed(page, SCHEDULE_URL, creds, {
-      userSelector: "#identity", passSelector: "#password", submitSelector: "button[type=submit]",
+      tag: "studiomate", userSelector: "#identity", passSelector: "#password", submitSelector: "button[type=submit]",
     });
 
     var seen = {};
