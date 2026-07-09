@@ -95,6 +95,24 @@ async function ensureAuthed(page, url, creds, opts) {
   await pwd.click().catch(function () {});
   await pwd.fill("");
   await pwd.type(String(creds.pass), { delay: 25 });
+
+  // React controlled input 대응: 네이티브 setter 로 두 칸을 확정 세팅 + input 이벤트
+  var setNative = function (el, v) {
+    var proto = window.HTMLInputElement && window.HTMLInputElement.prototype;
+    var desc = proto && Object.getOwnPropertyDescriptor(proto, "value");
+    if (desc && desc.set) { desc.set.call(el, v); } else { el.value = v; }
+    el.dispatchEvent(new Event("input", { bubbles: true }));
+    el.dispatchEvent(new Event("change", { bubbles: true }));
+  };
+  await uField.evaluate(setNative, String(creds.user)).catch(function () {});
+  await pwd.evaluate(setNative, String(creds.pass)).catch(function () {});
+
+  // 각 칸에 실제 들어간 값의 길이 확인(값 노출 없이 진단)
+  try {
+    var uv = await uField.inputValue();
+    var pv = await pwd.inputValue();
+    console.log("  [" + id + "] 필드확인 아이디칸.len=" + uv.length + " (기대=" + String(creds.user).length + ") 비번칸.len=" + pv.length + " (기대=" + String(creds.pass).length + ")");
+  } catch (e) { console.log("  [" + id + "] 필드확인 실패: " + String(e).slice(0, 60)); }
   console.log("  [" + id + "] 입력 완료");
 
   // 제출 (버튼 활성화 대기 후 클릭)
