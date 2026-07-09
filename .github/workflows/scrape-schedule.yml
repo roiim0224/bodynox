@@ -1,0 +1,72 @@
+name: 지점 스케줄 자동 수집
+
+# 실행 시점:
+#  - 2시간마다 자동 (비공개 저장소 무료 한도 고려)
+#  - 필요할 때 수동 실행(Actions 탭 → Run workflow) = "지금 즉시 수집"
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+# 수집 결과(schedule.json)를 main 에 커밋하려면 쓰기 권한 필요
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-schedule
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      TZ: Asia/Seoul
+      # --- 자격증명은 저장소 Secrets 에서 주입 (코드/로그에 노출되지 않음) ---
+      BODYCODI_USER: ${{ secrets.BODYCODI_USER }}
+      BODYCODI_PASS: ${{ secrets.BODYCODI_PASS }}
+      BODYCODI_VIEW_PASS: ${{ secrets.BODYCODI_VIEW_PASS }}
+      STUDIOMATE_USER: ${{ secrets.STUDIOMATE_USER }}
+      STUDIOMATE_PASS: ${{ secrets.STUDIOMATE_PASS }}
+      BUTFIT_USER: ${{ secrets.BUTFIT_USER }}
+      BUTFIT_PASS: ${{ secrets.BUTFIT_PASS }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 의존성 설치
+        working-directory: scraper
+        run: npm install --no-audit --no-fund
+
+      - name: Playwright(Chromium) 설치
+        working-directory: scraper
+        run: npx playwright install --with-deps chromium
+
+      - name: 스케줄 수집
+        working-directory: scraper
+        run: node scrape.js
+
+      - name: 진단 자료 업로드(실패한 지점 로그인 화면 등)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-debug
+          path: scraper/debug/
+          if-no-files-found: ignore
+          retention-days: 5
+
+      - name: 변경분만 커밋 (변동 없으면 커밋·재배포 안 함)
+        run: |
+          git config user.name "bodynox-schedule-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- dashboard/data/schedule.json; then
+            echo "스케줄 변동 없음 — 커밋 생략"
+          else
+            git add dashboard/data/schedule.json
+            git commit -m "Update branch schedule snapshot [auto]"
+            git push
+            echo "스케줄 갱신 커밋 완료"
+          fi
