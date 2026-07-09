@@ -1,77 +1,67 @@
 # 관리자 페이지(/admin) 설정 안내 — 비개발자용
 
-이 사이트에는 Decap CMS 관리자(`사이트주소/admin`)가 붙어 있습니다.
-관리자에서 문구를 고치고 **저장**하면 → 자동으로 git에 커밋되어 → 실제 사이트에 영구 반영됩니다.
+이 사이트에는 Decap CMS 관리자(**https://bodynox.netlify.app/admin**)가 붙어 있습니다.
+관리자에서 문구를 고치고 **저장(Publish)** 하면 → 자동으로 git(GitHub)에 커밋되어 → 실제 사이트에 영구 반영됩니다.
 (새로고침하면 사라지는 가짜 관리자가 아닙니다.)
 
-아래 순서를 **딱 한 번만** 설정하면 됩니다.
+> ### ✅ 현재 상태 (2026-07 기준)
+> **1~3단계는 이미 완료되었습니다.** 남은 일은 **4단계(사용자 초대)** 와 **5단계(문구 수정 테스트)** 뿐입니다.
+>
+> | 단계 | 상태 |
+> |---|---|
+> | 1. GitHub에 코드 올리기 | ✅ 완료 — `roiim0224/bodynox` (비공개) |
+> | 2. Netlify 배포 | ✅ 완료 — https://bodynox.netlify.app (자동 재배포) |
+> | 3. 로그인 연결 (DecapBridge) | ✅ 완료 — config.yml에 설정 반영됨 |
+> | 4. 사용자 초대 | ⬜ 아래 참고 |
+> | 5. 문구 수정 테스트 | ⬜ 아래 참고 |
 
 ---
 
-## 1단계. 코드를 GitHub에 올리기 — GitHub Desktop 앱 (터미널 불필요)
+## 1단계. 코드를 GitHub에 올리기 — ✅ 완료
 
-> Git Gateway는 "폴더 드래그&드롭 배포"로는 동작하지 않습니다. 반드시 GitHub 저장소에 올려서 연결해야 합니다.
-> 첫 커밋은 이미 만들어져 있으므로, 아래는 그걸 GitHub에 "게시(Publish)"하는 과정입니다.
+코드는 GitHub의 **`roiim0224/bodynox`** 저장소(비공개)에 올라가 있습니다.
 
-1. **GitHub Desktop 설치**: https://desktop.github.com → **Download for macOS**
-   → 받은 파일 압축 풀고 **응용 프로그램(Applications)** 폴더로 드래그 → 실행
-2. **GitHub 로그인**: 첫 실행 시 **Sign in to GitHub.com** → 브라우저에서 **Authorize**
-   (이름/이메일 설정 화면이 나오면 그대로 **Continue/Finish**)
-3. **폴더 추가**: 상단 메뉴 **File → Add Local Repository**
-   → **Choose…** 로 `bodynox-homepage` 폴더 선택 → **Add Repository**
-   (이미 커밋이 있어 "변경사항 없음" 상태로 보이면 정상입니다)
-4. **게시**: 오른쪽 위 **Publish repository** 버튼 클릭
-   → 이름은 `bodynox-homepage` 그대로
-   → **Keep this code private** 체크 **유지(비공개)** → **Publish Repository**
-5. 끝나면 `https://github.com/<내아이디>/bodynox-homepage` (비공개)에 올라갑니다.
-
-> 이후 내 컴퓨터에서 파일을 직접 고쳤다면, GitHub Desktop에서 **Commit → Push** 두 번 클릭으로 올리면 됩니다.
-> (단, 관리자 `/admin`에서 고친 내용은 자동으로 GitHub에 올라가므로 Desktop이 필요 없습니다.)
+- 관리자(`/admin`)에서 고친 내용은 **자동으로 GitHub에 올라가므로** 아무것도 안 해도 됩니다.
+- 내 컴퓨터에서 파일을 **직접** 고친 경우에만: GitHub Desktop 앱에서 **Commit → Push** 두 번 클릭으로 올리면 됩니다.
 
 ---
 
-## 2단계. Netlify에서 GitHub 저장소 연결해 배포
+## 2단계. Netlify 배포 — ✅ 완료
 
-1. https://app.netlify.com 로그인
-2. **Add new site** → **Import an existing project**
-3. **Deploy with GitHub** → 방금 만든 저장소(`bodynox-homepage`) 선택
-4. 빌드 설정은 비워둬도 됩니다(이 사이트는 빌드가 없습니다). **Deploy** 클릭
-5. 잠시 뒤 `랜덤이름.netlify.app` 주소가 생기면 배포 완료
+사이트는 **https://bodynox.netlify.app** 에 배포되어 있습니다.
+
+- GitHub(`roiim0224/bodynox`)에 새 커밋이 올라가면 Netlify가 **1~2분 안에 자동으로 재배포**합니다.
+- 별도로 눌러야 할 버튼은 없습니다.
+- ⚠️ Netlify에서 "폴더 드래그&드롭" 수동 배포는 하지 마세요 — git 연동이 끊겨 `/admin`이 깨질 수 있습니다.
 
 ---
 
-## 3단계. 로그인 연결 (DecapBridge)
+## 3단계. 로그인 연결 (DecapBridge) — ✅ 완료
 
 > Netlify Identity는 단계적 종료(deprecated) 중이라, Decap 전용 무료 로그인 서비스
-> **DecapBridge**로 연결합니다. 동작(저장 → GitHub 커밋 → 사이트 반영)은 동일합니다.
+> **DecapBridge**로 연결했습니다. 동작(저장 → GitHub 커밋 → 사이트 반영)은 동일합니다.
 
-1. **https://decapbridge.com** → **Sign up**(가입)
-2. 대시보드에서 **Add site**(사이트 추가)
-3. **GitHub** 선택 → 안내에 따라 DecapBridge가 내 GitHub 저장소에 접근하도록 **Authorize**
-4. 저장소 경로를 `사용자명/bodynox-homepage` 형식으로 입력 → **Create site**
-5. 그러면 **`config.yml`에 넣을 backend 블록**이 화면에 생성됩니다 (repo·identity_url 포함).
-   → 이 블록을 **복사**해 두세요.
-
-### config.yml에 값 넣기
-- `admin/config.yml` 맨 위 `backend:` 부분의 `repo` 와 `identity_url` 을
-  4~5단계에서 받은 값으로 바꾸면 됩니다.
-- 코드 수정이 부담되면, **복사한 블록을 그대로 전달**해 주세요(개발자/Claude가 끼워 넣어 드립니다).
-- 수정한 `config.yml` 은 GitHub Desktop에서 **Commit → Push** 하면 사이트에 반영됩니다.
+- DecapBridge에 이 사이트가 등록되어 있고, `admin/config.yml`에 로그인 설정(PKCE 방식)이 이미 들어가 있습니다.
+- **별도로 고치거나 붙여넣을 값이 없습니다.**
+- DecapBridge 대시보드: https://app.decapbridge.com (사이트 관리·사용자 초대용)
 
 ---
 
-## 4단계. 본인·편집자 초대
+## 4단계. 본인·편집자 초대 — ⬜ 해야 할 일
 
-1. DecapBridge 대시보드 → 해당 사이트 → **Users / Invite**
+관리자에 로그인하려면 DecapBridge에서 **초대된 사용자**여야 합니다. 본인부터 초대하세요.
+
+1. https://app.decapbridge.com 로그인 → 해당 사이트 선택 → **Users / Invite**
 2. 이메일(예: roiim0224@gmail.com) 입력 → **Send**
 3. 받은 메일의 링크에서 **로그인 방법 선택**(비밀번호 / 구글 / Microsoft 중 택1) → 계정 설정
    - 편집자는 **GitHub 계정이 없어도** 됩니다.
+   - 다른 직원도 같은 방법으로 초대하면 함께 편집할 수 있습니다.
 
 ---
 
-## 5단계. 문구 수정 테스트
+## 5단계. 문구 수정 테스트 — ⬜ 해야 할 일
 
-1. `사이트주소/admin` 접속 → DecapBridge로 로그인
+1. **https://bodynox.netlify.app/admin** 접속 → **로그인** 버튼 → DecapBridge 계정으로 로그인
 2. 왼쪽 **사이트 문구** 아래에 편집할 수 있는 항목이 있습니다:
    - **센터 소개 문구** — 첫 화면 소개 본문
    - **상단 메뉴** — 센터 소개 / 수업 / 가격 / 강사 / 후기 / 오시는 길 / 예약·상담 버튼
@@ -124,5 +114,6 @@ npm run dev          # http://localhost:5500
 
 - **수정한 게 사라지나요?** 아니요. git에 커밋되므로 영구 보존됩니다.
 - **여러 명이 쓸 수 있나요?** 네. 4단계(DecapBridge 초대)에서 다른 사람도 초대하면 됩니다.
+- **로그인이 안 돼요.** 4단계 초대를 아직 안 했을 가능성이 큽니다. DecapBridge 대시보드에서 본인 이메일을 초대했는지 확인하세요.
 - **나중에 다른 문구도 편집하고 싶어요.** 개발자에게 "admin/config.yml에 항목 추가"를 요청하면
   메뉴/수업/가격 등도 같은 방식으로 관리자에서 편집할 수 있게 확장됩니다.

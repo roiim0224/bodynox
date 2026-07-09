@@ -91,17 +91,17 @@ const CONFIG = {
 - HTML에는 `data-i18n="키"`(텍스트), `data-i18n-html`(HTML 포함), `data-i18n-ph`(placeholder), `data-i18n-aria`(aria-label)가 붙어 있고, 기본 표시는 한국어(무JS·SEO 대비)입니다.
 - 언어 추가: i18n.js에 새 언어 객체 추가 → `main.js`의 `LANGS` 배열에 코드 추가 → 스위처에 버튼 1개 추가.
 
-## 5. 배포 (가장 쉬운 순서)
+## 5. 배포 — 현재 자동 배포 중 ✅
 
-### Netlify (권장 — 드래그&드롭, 문의 폼 자동 동작)
-1. https://app.netlify.com 가입 → **Add new site → Deploy manually**
-2. `bodynox-homepage` 폴더를 통째로 드래그&드롭 (또는 `npm run deploy`)
-3. 끝. 문의 폼은 `data-netlify` 속성으로 **백엔드 없이 자동 수집**됩니다 (Netlify 대시보드 → Forms에서 확인, 무료 월 100건).
-   - 폼 알림 메일: Site settings → Forms → Form notifications
+이 사이트는 이미 배포되어 있습니다. 별도 배포 작업이 필요 없습니다.
 
-### 그 외
-- **Vercel**: 폴더 import → 그대로 배포 (폼은 Netlify Forms 대신 Formspree 등 필요)
-- **GitHub Pages**: 레포에 푸시 → Pages 활성화 (폼은 외부 폼 서비스 필요)
+- **주소**: https://bodynox.netlify.app
+- **방식**: GitHub 저장소(`roiim0224/bodynox`)의 `main` 브랜치에 커밋이 올라가면 Netlify가 **자동으로 재배포**합니다.
+- 관리자(`/admin`)에서 저장(Publish)해도, GitHub Desktop으로 Push해도 똑같이 자동 반영됩니다.
+- 문의 폼은 `data-netlify` 속성으로 **백엔드 없이 자동 수집**됩니다 (Netlify 대시보드 → Forms, 무료 월 100건).
+  - 폼 알림 메일: Site settings → Forms → Form notifications
+
+> ⚠️ **드래그&드롭 수동 배포는 사용하지 마세요.** git 연동이 끊겨 `/admin` 로그인·저장이 깨질 수 있습니다.
 
 배포 후 `index.html`의 `og:url`, `canonical`, `sitemap.xml`, 구조화데이터의 URL을 **실제 도메인**으로 바꿔주세요.
 
