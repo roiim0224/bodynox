@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T06:40:12+09:00",
+  "updatedAt": "2026-07-10T08:16:53+09:00",
   "sample": false,
   "branches": [
     {
@@ -104,7 +104,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
