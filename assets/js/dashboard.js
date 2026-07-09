@@ -9,7 +9,7 @@
 (function () {
   "use strict";
 
-  var SCHEDULE_URL = "/content/schedule.json";
+  var SCHEDULE_URL = "data/schedule.json";
   var WEEKDAYS = ["일", "월", "화", "수", "목", "금", "토"];
   var BRANCH_COLORS = { bodycodi: "var(--accent)", studiomate: "var(--ink)", butfit: "var(--ok)" };
 

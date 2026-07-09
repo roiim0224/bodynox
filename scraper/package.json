@@ -1,0 +1,12 @@
+{
+  "name": "bodynox-schedule-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "세 지점(바디코디·스튜디오메이트·버핏) 스케줄 자동 수집기",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
