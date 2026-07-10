@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T20:09:10+09:00",
+  "updatedAt": "2026-07-10T23:37:58+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,7 +36,7 @@
           "title": "A.B.T",
           "instructor": "황지원",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -206,7 +206,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -246,7 +246,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -455,7 +455,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         }
       ]
@@ -614,7 +614,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
