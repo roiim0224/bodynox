@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T12:43:24+09:00",
+  "updatedAt": "2026-07-10T16:40:58+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,7 +36,7 @@
           "title": "A.B.T",
           "instructor": "황지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -46,7 +46,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -76,7 +76,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -216,7 +216,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -256,7 +256,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -604,7 +604,7 @@
           "title": "Original Pilates",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 4,
+          "booked": 7,
           "status": "confirmed"
         },
         {
