@@ -77,7 +77,9 @@ async function ensureAuthed(page, url, creds, opts) {
   var id = opts.tag || "";
 
   await page.goto(url, { waitUntil: "domcontentloaded" }).catch(function () {});
-  await page.waitForTimeout(2500);
+  await page.waitForTimeout(3500);
+  // 로그인 폼(비번칸)이 나타날 때까지 잠시 더 대기(React SPA 하이드레이션)
+  await page.waitForSelector(passSel, { timeout: 6000 }).catch(function () {});
 
   var pwd = await page.$(passSel);
   if (!pwd) { console.log("  [" + id + "] 이미 로그인 상태"); return true; }
@@ -107,6 +109,11 @@ async function ensureAuthed(page, url, creds, opts) {
   await uField.evaluate(setNative, String(creds.user)).catch(function () {});
   await pwd.evaluate(setNative, String(creds.pass)).catch(function () {});
 
+  // MUI/React 검증 트리거: blur 발생 후 버튼 활성화 대기
+  await uField.evaluate(function (el) { el.dispatchEvent(new Event("blur", { bubbles: true })); }).catch(function () {});
+  await pwd.evaluate(function (el) { el.dispatchEvent(new Event("blur", { bubbles: true })); }).catch(function () {});
+  await page.waitForTimeout(1000);
+
   // 각 칸에 실제 들어간 값의 길이 확인(값 노출 없이 진단)
   try {
     var uv = await uField.inputValue();
@@ -115,14 +122,21 @@ async function ensureAuthed(page, url, creds, opts) {
   } catch (e) { console.log("  [" + id + "] 필드확인 실패: " + String(e).slice(0, 60)); }
   console.log("  [" + id + "] 입력 완료");
 
-  // 제출 (버튼 활성화 대기 후 클릭)
-  await page.waitForTimeout(500);
+  // 제출: 로그인 버튼을 찾아 클릭 + 엔터 키도 함께(폼별 편차 대응)
   var submit = await page.$(opts.submitSelector || "button[type=submit], input[type=submit]");
   if (!submit) {
     submit = await page.$("xpath=//button[contains(normalize-space(.), '로그인') or contains(translate(normalize-space(.),'LOGIN','login'),'login')]");
   }
-  if (submit) { await submit.click({ force: true }).catch(function () {}); }
-  else { await pwd.press("Enter"); }
+  // 버튼이 비활성이면 잠시 대기(검증 완료 후 활성화되는 폼 대응)
+  if (submit) {
+    try {
+      var disabled = await submit.getAttribute("disabled");
+      if (disabled !== null) { await page.waitForTimeout(1200); }
+    } catch (e) {}
+    await submit.click({ force: true }).catch(function () {});
+  }
+  // 엔터로도 한 번 더 제출 시도(버튼 onClick 미동작 대비)
+  await pwd.press("Enter").catch(function () {});
   console.log("  [" + id + "] 제출");
 
   // 성공 신호: 비밀번호 입력칸이 사라짐(폼이 앱 화면으로 대체)
