@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T08:02:37+09:00",
+  "updatedAt": "2026-07-11T11:57:41+09:00",
   "sample": false,
   "branches": [
     {
@@ -324,7 +324,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -351,7 +351,7 @@
           "date": "2026-07-11",
           "start": "12:00",
           "end": "12:50",
-          "title": "진용남",
+          "title": "1:1 필라테스",
           "instructor": "이혜민",
           "capacity": 1,
           "booked": 1,
