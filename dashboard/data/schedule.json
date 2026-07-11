@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T23:59:17+09:00",
+  "updatedAt": "2026-07-12T02:02:51+09:00",
   "sample": false,
   "branches": [
     {
@@ -16,8 +16,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-15",
@@ -279,16 +279,6 @@
       "error": null,
       "classes": [
         {
-          "date": "2026-07-11",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "개인수업",
-          "instructor": "차민정",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
           "date": "2026-07-12",
           "start": "09:00",
           "end": "09:50",
@@ -318,27 +308,467 @@
       "error": null,
       "classes": [
         {
-          "date": "2026-07-11",
+          "date": "2026-07-13",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "1:1개인수업",
+          "instructor": "이채은",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "1:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "Rave Push&Pull",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
           "start": "11:00",
           "end": "11:50",
-          "title": "RAVE Full Body",
+          "title": "1:1 필라테스",
+          "instructor": "최미미",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "GARUDA Sling",
+          "instructor": "홍지영",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "1:1 필라테스",
+          "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "GARUDA Barre",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "12:30",
+          "end": "13:20",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "13:00",
+          "end": "13:50",
+          "title": "1:1 필라테스",
+          "instructor": "최미미",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "06:30",
+          "end": "07:20",
+          "title": "RAVE Push&Pull",
+          "instructor": "임용호",
+          "capacity": 8,
+          "booked": 4,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "07:30",
+          "end": "08:20",
+          "title": "RAVE Push&Pull",
+          "instructor": "임용호",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "15:30",
+          "end": "16:20",
+          "title": "체험 및 상담",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "16:30",
+          "end": "17:20",
+          "title": "신상훈",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "RAVE Reformer",
+          "instructor": "이혜민",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "Rave Reformer",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "1:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "GARUDA Brick",
           "instructor": "임용호",
           "capacity": 8,
           "booked": 3,
           "status": "confirmed"
         },
         {
-          "date": "2026-07-11",
-          "start": "11:00",
-          "end": "11:50",
-          "title": "2:1 필라테스",
-          "instructor": "이혜민",
-          "capacity": 2,
+          "date": "2026-07-14",
+          "start": "06:30",
+          "end": "07:20",
+          "title": "RAVE Full Body",
+          "instructor": "임용호",
+          "capacity": 8,
           "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "07:30",
+          "end": "08:20",
+          "title": "RAVE Hybrid",
+          "instructor": "임용호",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "12:30",
+          "end": "13:20",
+          "title": "RAVE ISO Fit",
+          "instructor": "이혜민",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "16:30",
+          "end": "17:20",
+          "title": "1:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
           "status": "full"
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-07-14",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "RAVE Barre",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "GARUDA Sling",
+          "instructor": "이혜민",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "GARUDA Barre",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "06:40",
+          "end": "07:30",
+          "title": "1:1 필라테스",
+          "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "07:00",
+          "end": "07:50",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "07:30",
+          "end": "08:20",
+          "title": "GARUDA BARRE",
+          "instructor": "Amy",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "1:1 필라테스",
+          "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "RAVE Barre",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 4,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "13:00",
+          "end": "13:50",
+          "title": "1:1 필라테스",
+          "instructor": "최미미",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "RAVE Blast",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "GARUDA Reformer",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "RAVE Blast",
+          "instructor": "이채은",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "1:1 필라테스",
+          "instructor": "최미미",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "Original Pilates",
+          "instructor": "이혜민",
+          "capacity": 8,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "1:1 필라테스 & 이혜민",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "RAVE 4X4",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "1:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "RAVE 4X4",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "06:30",
+          "end": "07:20",
+          "title": "Core Cut",
+          "instructor": "임용호",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "07:30",
+          "end": "08:20",
+          "title": "RAVE Full Body",
+          "instructor": "임용호",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "12:30",
+          "end": "13:20",
+          "title": "RAVE 4X4",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "14:30",
+          "end": "15:20",
+          "title": "1:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "15:30",
+          "end": "16:20",
+          "title": "1:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "GARUDA Mat",
+          "instructor": "이혜민",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-18",
           "start": "10:00",
           "end": "10:50",
           "title": "강은지",
@@ -348,7 +778,17 @@
           "status": "full"
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-07-18",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "2:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 2,
+          "booked": 2,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-18",
           "start": "12:00",
           "end": "12:50",
           "title": "1:1 필라테스",
@@ -358,7 +798,7 @@
           "status": "full"
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-07-18",
           "start": "13:00",
           "end": "13:50",
           "title": "1:1 필라테스",
