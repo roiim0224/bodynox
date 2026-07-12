@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T02:04:06+09:00",
+  "updatedAt": "2026-07-13T04:11:45+09:00",
   "sample": false,
   "branches": [
     {
@@ -1254,7 +1254,7 @@
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1474,7 +1474,7 @@
           "title": "RAVE Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
