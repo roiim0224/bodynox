@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T22:36:44+09:00",
+  "updatedAt": "2026-07-13T00:01:50+09:00",
   "sample": false,
   "branches": [
     {
@@ -176,7 +176,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -268,6 +268,316 @@
           "capacity": 5,
           "booked": 1,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-07-20",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "Reformer-full body",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "Reformer-full body",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-20",
+          "start": "12:20",
+          "end": "13:10",
+          "title": "Reformer-full body",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "12:20",
+          "end": "13:10",
+          "title": "Reformer-full body",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-21",
+          "start": "12:20",
+          "end": "13:10",
+          "title": "Reformer-full body",
+          "instructor": "홍지영",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-23",
+          "start": "12:20",
+          "end": "13:10",
+          "title": "Reformer-full body",
+          "instructor": "홍지영",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-20",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "A.B.T",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-20",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "A.B.T",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-20",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "A.B.T",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "Combine 2X L2",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-24",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "Reformer-full body",
+          "instructor": "하수빈",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-24",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "Core-cut",
+          "instructor": "하수빈",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-24",
+          "start": "12:20",
+          "end": "13:10",
+          "title": "A.B.T",
+          "instructor": "한승희",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-23",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "Combine 2X L2",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-23",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "Combine 2X L2",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-23",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "Combine 2X L2",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-23",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "Combine 2X L2",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-24",
+          "start": "11:20",
+          "end": "12:10",
+          "title": "A.B.T",
+          "instructor": "한승희",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-21",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "Reformer-full body",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-21",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "Reformer-full body",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-21",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "Reformer-full body",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-21",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "Reformer-full body",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "08:00",
+          "end": "08:50",
+          "title": "Reformer-full body",
+          "instructor": "한승희",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-24",
+          "start": "08:00",
+          "end": "08:50",
+          "title": "Reformer-full body",
+          "instructor": "한승희",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-20",
+          "start": "08:00",
+          "end": "08:50",
+          "title": "A.B.T",
+          "instructor": "한승희",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-20",
+          "start": "11:20",
+          "end": "12:10",
+          "title": "Combine 2X L2",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-21",
+          "start": "11:20",
+          "end": "12:10",
+          "title": "Combine 2X L2",
+          "instructor": "홍지영",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "11:20",
+          "end": "12:10",
+          "title": "Combine 2X L2",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-23",
+          "start": "11:20",
+          "end": "12:10",
+          "title": "Combine 2X L2",
+          "instructor": "홍지영",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "A.B.T",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "Reformer-full body",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
         }
       ]
     },
@@ -279,34 +589,584 @@
       "error": null,
       "classes": [
         {
-          "date": "2026-07-12",
+          "date": "2026-07-13",
           "start": "09:00",
           "end": "09:50",
-          "title": "그룹수업",
+          "title": "개인수업",
           "instructor": "차민정",
-          "capacity": 5,
-          "booked": 3,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-07-12",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "차민정",
-          "capacity": 5,
-          "booked": 5,
+          "capacity": 1,
+          "booked": 1,
           "status": "full"
         },
         {
-          "date": "2026-07-12",
-          "start": "11:00",
-          "end": "11:50",
+          "date": "2026-07-13",
+          "start": "10:00",
+          "end": "10:50",
           "title": "개인수업",
           "instructor": "채수진",
           "capacity": 1,
           "booked": 1,
           "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "18:20",
+          "end": "19:10",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "19:15",
+          "end": "20:05",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "20:05",
+          "end": "20:55",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-13",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "07:00",
+          "end": "07:50",
+          "title": "개인수업",
+          "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "07:00",
+          "end": "07:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이지나",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "10:30",
+          "end": "11:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "20:30",
+          "end": "21:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "07:00",
+          "end": "07:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이지나",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "10:30",
+          "end": "11:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "11:35",
+          "end": "12:25",
+          "title": "개인수업",
+          "instructor": "이지나",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-16",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-18",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "황정희",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-19",
+          "start": "09:00",
+          "end": "09:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-19",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
         }
       ]
     },
