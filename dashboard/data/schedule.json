@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T04:11:45+09:00",
+  "updatedAt": "2026-07-13T05:56:45+09:00",
   "sample": false,
   "branches": [
     {
@@ -1284,7 +1284,7 @@
           "title": "RAVE Push&Pull",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -1364,7 +1364,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1584,7 +1584,7 @@
           "title": "Core Cut",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
