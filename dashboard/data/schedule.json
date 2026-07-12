@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T15:38:39+09:00",
+  "updatedAt": "2026-07-12T18:58:11+09:00",
   "sample": false,
   "branches": [
     {
@@ -96,8 +96,8 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-14",
@@ -126,8 +126,8 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-13",
@@ -136,7 +136,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -186,7 +186,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -296,6 +296,16 @@
           "instructor": "차민정",
           "capacity": 5,
           "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-12",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
           "status": "full"
         }
       ]
