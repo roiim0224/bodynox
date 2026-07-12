@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T07:55:31+09:00",
+  "updatedAt": "2026-07-12T12:22:59+09:00",
   "sample": false,
   "branches": [
     {
@@ -186,7 +186,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -285,7 +285,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -295,8 +295,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         }
       ]
     },
