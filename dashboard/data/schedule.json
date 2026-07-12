@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T20:15:01+09:00",
+  "updatedAt": "2026-07-12T22:36:44+09:00",
   "sample": false,
   "branches": [
     {
@@ -126,8 +126,8 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-07-13",
@@ -226,7 +226,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -394,7 +394,7 @@
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -464,7 +464,7 @@
           "title": "RAVE Reformer",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
