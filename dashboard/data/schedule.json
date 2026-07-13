@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T04:42:20+09:00",
+  "updatedAt": "2026-07-14T06:01:27+09:00",
   "sample": false,
   "branches": [
     {
@@ -1064,7 +1064,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
