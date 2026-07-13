@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T02:59:12+09:00",
+  "updatedAt": "2026-07-14T04:42:20+09:00",
   "sample": false,
   "branches": [
     {
@@ -1086,6 +1086,16 @@
           "capacity": 8,
           "booked": 2,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-07-14",
+          "start": "13:30",
+          "end": "14:20",
+          "title": "1:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-07-14",
