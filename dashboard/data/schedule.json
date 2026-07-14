@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T15:15:47+09:00",
+  "updatedAt": "2026-07-14T19:03:27+09:00",
   "sample": false,
   "branches": [
     {
@@ -16,8 +16,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-15",
@@ -26,7 +26,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -56,7 +56,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -76,7 +76,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -166,7 +166,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -176,7 +176,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -186,8 +186,8 @@
           "title": "Combine 2X L2",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-15",
@@ -376,7 +376,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -406,7 +406,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -426,7 +426,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -446,7 +446,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -695,18 +695,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 2,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-07-14",
-          "start": "21:00",
-          "end": "21:50",
-          "title": "그룹수업",
-          "instructor": "차민정",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-15",
@@ -737,6 +727,16 @@
           "capacity": 5,
           "booked": 2,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-07-15",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-07-15",
@@ -950,16 +950,6 @@
         },
         {
           "date": "2026-07-16",
-          "start": "19:30",
-          "end": "20:20",
-          "title": "개인수업",
-          "instructor": "유정민",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-07-16",
           "start": "20:00",
           "end": "20:50",
           "title": "그룹수업",
@@ -1129,22 +1119,12 @@
         },
         {
           "date": "2026-07-14",
-          "start": "17:30",
-          "end": "18:20",
-          "title": "RAVE Barre",
-          "instructor": "최미미",
-          "capacity": 8,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-07-14",
           "start": "19:30",
           "end": "20:20",
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 0,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1264,7 +1244,7 @@
           "title": "RAVE 4X4",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1294,7 +1274,7 @@
           "title": "Core Cut",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
