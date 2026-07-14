@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T00:27:29+09:00",
+  "updatedAt": "2026-07-15T02:19:36+09:00",
   "sample": false,
   "branches": [
     {
@@ -116,7 +116,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
