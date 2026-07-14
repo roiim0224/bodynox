@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T07:59:32+09:00",
+  "updatedAt": "2026-07-14T11:49:19+09:00",
   "sample": false,
   "branches": [
     {
@@ -66,7 +66,7 @@
           "title": "Reformer-full body",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -156,7 +156,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -426,7 +426,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -436,7 +436,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -446,7 +446,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -585,8 +585,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-14",
@@ -855,7 +855,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -955,7 +955,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -1054,7 +1054,7 @@
           "title": "GARUDA Sling",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1084,7 +1084,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1274,7 +1274,7 @@
           "title": "Core Cut",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
