@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T15:23:27+09:00",
+  "updatedAt": "2026-07-16T19:13:54+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,7 +46,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -585,7 +585,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -681,7 +681,7 @@
           "date": "2026-07-16",
           "start": "18:30",
           "end": "19:20",
-          "title": "1:1 필라테스 & 이혜민",
+          "title": "1:1 필라테스",
           "instructor": "이혜민",
           "capacity": 1,
           "booked": 1,
@@ -691,26 +691,6 @@
           "date": "2026-07-16",
           "start": "18:30",
           "end": "19:20",
-          "title": "RAVE 4X4",
-          "instructor": "최미미",
-          "capacity": 8,
-          "booked": 1,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-07-16",
-          "start": "19:30",
-          "end": "20:20",
-          "title": "1:1 필라테스",
-          "instructor": "이혜민",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-07-16",
-          "start": "19:30",
-          "end": "20:20",
           "title": "RAVE 4X4",
           "instructor": "최미미",
           "capacity": 8,
@@ -789,13 +769,23 @@
         },
         {
           "date": "2026-07-16",
-          "start": "20:30",
-          "end": "21:20",
-          "title": "1:1 필라테스",
-          "instructor": "이혜민",
-          "capacity": 1,
-          "booked": 0,
+          "start": "19:30",
+          "end": "20:20",
+          "title": "RAVE 4X4",
+          "instructor": "최미미",
+          "capacity": 8,
+          "booked": 2,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-07-17",
+          "start": "10:10",
+          "end": "11:00",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-07-17",
