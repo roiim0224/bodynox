@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T22:47:58+09:00",
+  "updatedAt": "2026-07-18T00:17:53+09:00",
   "sample": false,
   "branches": [
     {
@@ -407,26 +407,6 @@
       "status": "ok",
       "error": null,
       "classes": [
-        {
-          "date": "2026-07-17",
-          "start": "10:10",
-          "end": "11:00",
-          "title": "1:1 필라테스",
-          "instructor": "공수아",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-07-17",
-          "start": "12:30",
-          "end": "13:20",
-          "title": "1:1 필라테스",
-          "instructor": "양초희",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
         {
           "date": "2026-07-18",
           "start": "10:00",
