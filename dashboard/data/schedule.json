@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:12:52+09:00",
+  "updatedAt": "2026-07-19T22:26:53+09:00",
   "sample": false,
   "branches": [
     {
@@ -136,7 +136,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -444,7 +444,7 @@
           "title": "GARUDA Reformer",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -474,7 +474,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -674,7 +674,7 @@
           "title": "GARUDA BARRE",
           "instructor": "Amy",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
