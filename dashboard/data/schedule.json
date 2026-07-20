@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T06:16:07+09:00",
+  "updatedAt": "2026-07-21T08:04:52+09:00",
   "sample": false,
   "branches": [
     {
@@ -146,7 +146,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -196,8 +196,8 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-07-21",
@@ -206,8 +206,8 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 3,
+          "status": "confirmed"
         },
         {
           "date": "2026-07-21",
@@ -216,8 +216,8 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-07-22",
@@ -286,8 +286,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-22",
@@ -717,16 +717,6 @@
           "capacity": 1,
           "booked": 1,
           "status": "full"
-        },
-        {
-          "date": "2026-07-21",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "이지나",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
         },
         {
           "date": "2026-07-21",
@@ -1284,7 +1274,7 @@
           "title": "GARUDA Brick",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -1324,7 +1314,7 @@
           "title": "Original Pilates",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1504,7 +1494,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
