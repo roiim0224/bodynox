@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T15:52:20+09:00",
+  "updatedAt": "2026-07-20T19:57:41+09:00",
   "sample": false,
   "branches": [
     {
@@ -106,7 +106,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -116,7 +116,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 1,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -126,7 +126,7 @@
           "title": "Core-cut",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -138,6 +138,46 @@
           "capacity": 5,
           "booked": 5,
           "status": "full"
+        },
+        {
+          "date": "2026-07-21",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 6,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-23",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 6,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-21",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 6,
+          "booked": 6,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-23",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 6,
+          "booked": 2,
+          "status": "confirmed"
         },
         {
           "date": "2026-07-23",
@@ -166,7 +206,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -186,8 +226,8 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-07-21",
@@ -206,8 +246,8 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-21",
@@ -316,7 +356,27 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-20",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "[파비짐] GX (최대정원 8인)",
+          "instructor": "이지선",
+          "capacity": 8,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "[파비짐] GX (최대정원 8인)",
+          "instructor": "이지선",
+          "capacity": 8,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -390,6 +450,46 @@
           "status": "confirmed"
         },
         {
+          "date": "2026-07-28",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 6,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-30",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 6,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-28",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 6,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-30",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 6,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
           "date": "2026-07-30",
           "start": "17:00",
           "end": "17:50",
@@ -446,7 +546,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -576,7 +676,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -627,6 +727,26 @@
           "instructor": "하수빈",
           "capacity": 5,
           "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-27",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "[파비짐] GX (최대정원 8인)",
+          "instructor": "이지선",
+          "capacity": 8,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-29",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "[파비짐] GX (최대정원 8인)",
+          "instructor": "이지선",
+          "capacity": 8,
+          "booked": 1,
           "status": "confirmed"
         }
       ]
@@ -830,23 +950,23 @@
         },
         {
           "date": "2026-07-20",
+          "start": "19:15",
+          "end": "20:05",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-20",
           "start": "20:00",
           "end": "20:50",
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 3,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-07-20",
-          "start": "21:00",
-          "end": "21:50",
-          "title": "그룹수업",
-          "instructor": "유정민",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-20",
@@ -910,6 +1030,16 @@
         },
         {
           "date": "2026-07-21",
+          "start": "10:30",
+          "end": "11:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-21",
           "start": "11:35",
           "end": "12:25",
           "title": "개인수업",
@@ -925,7 +1055,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1010,6 +1140,26 @@
         },
         {
           "date": "2026-07-22",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-22",
           "start": "11:40",
           "end": "12:30",
           "title": "그룹수업",
@@ -1017,6 +1167,16 @@
           "capacity": 5,
           "booked": 2,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-07-22",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-07-22",
@@ -1120,6 +1280,16 @@
         },
         {
           "date": "2026-07-23",
+          "start": "10:30",
+          "end": "11:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-23",
           "start": "11:00",
           "end": "11:50",
           "title": "개인수업",
@@ -1174,16 +1344,6 @@
           "end": "15:50",
           "title": "개인수업",
           "instructor": "김주아",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-07-23",
-          "start": "17:30",
-          "end": "18:20",
-          "title": "개인수업",
-          "instructor": "유정민",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -1327,6 +1487,16 @@
           "capacity": 5,
           "booked": 0,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-07-25",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-07-25",
@@ -1444,7 +1614,7 @@
           "title": "Rave ISO Fit",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1501,7 +1671,7 @@
           "date": "2026-07-20",
           "start": "18:30",
           "end": "19:20",
-          "title": "김지현님",
+          "title": "1:1 필라테스",
           "instructor": "이혜민",
           "capacity": 1,
           "booked": 1,
@@ -1514,7 +1684,7 @@
           "title": "GARUDA Reformer",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1604,7 +1774,7 @@
           "title": "GARUDA Reformer",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -1794,7 +1964,7 @@
           "title": "GARUDA Mat",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1834,7 +2004,7 @@
           "title": "RAVE Blast",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1844,7 +2014,7 @@
           "title": "RAVE Blast",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1884,7 +2054,7 @@
           "title": "Core Cut",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
