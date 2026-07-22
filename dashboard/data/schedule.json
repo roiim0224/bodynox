@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T11:57:33+09:00",
+  "updatedAt": "2026-07-22T15:33:40+09:00",
   "sample": false,
   "branches": [
     {
@@ -16,7 +16,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -46,7 +46,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -76,8 +76,8 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-07-23",
@@ -106,8 +106,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-23",
@@ -146,7 +146,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -206,8 +206,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-22",
@@ -376,7 +376,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -456,7 +456,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -516,7 +516,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -952,6 +952,16 @@
           "date": "2026-07-24",
           "start": "12:00",
           "end": "12:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-24",
+          "start": "12:00",
+          "end": "12:50",
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
@@ -1069,6 +1079,16 @@
       "classes": [
         {
           "date": "2026-07-22",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-07-22",
           "start": "12:00",
           "end": "12:50",
           "title": "1:1 필라테스",
@@ -1089,26 +1109,6 @@
         },
         {
           "date": "2026-07-22",
-          "start": "13:00",
-          "end": "13:50",
-          "title": "1:1 필라테스",
-          "instructor": "최미미",
-          "capacity": 1,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-07-22",
-          "start": "13:10",
-          "end": "14:00",
-          "title": "1:1 필라테스",
-          "instructor": "양초희",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-07-22",
           "start": "19:30",
           "end": "20:20",
           "title": "1:1 필라테스",
@@ -1124,7 +1124,7 @@
           "title": "Original Pilates",
           "instructor": "이채은",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1149,10 +1149,10 @@
         },
         {
           "date": "2026-07-22",
-          "start": "15:00",
-          "end": "15:50",
+          "start": "13:10",
+          "end": "14:00",
           "title": "1:1 필라테스",
-          "instructor": "최미미",
+          "instructor": "양초희",
           "capacity": 1,
           "booked": 1,
           "status": "full"
