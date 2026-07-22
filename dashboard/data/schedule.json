@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T06:14:18+09:00",
+  "updatedAt": "2026-07-23T08:09:55+09:00",
   "sample": false,
   "branches": [
     {
@@ -76,8 +76,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-07-23",
@@ -96,7 +96,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -535,7 +535,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -567,16 +567,6 @@
           "capacity": 1,
           "booked": 1,
           "status": "full"
-        },
-        {
-          "date": "2026-07-23",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "이지나",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
         },
         {
           "date": "2026-07-23",
@@ -984,7 +974,7 @@
           "title": "RAVE Hybrid",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 5,
+          "booked": 6,
           "status": "confirmed"
         },
         {
