@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T19:27:42+09:00",
+  "updatedAt": "2026-07-23T23:11:25+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,8 +36,8 @@
           "title": "Core-cut",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-07-24",
@@ -66,7 +66,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 6,
-          "booked": 3,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -176,7 +176,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -705,7 +705,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -994,7 +994,7 @@
           "title": "GARUDA Barre",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1104,7 +1104,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
