@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T00:28:38+09:00",
+  "updatedAt": "2026-07-25T02:42:03+09:00",
   "sample": false,
   "branches": [
     {
@@ -226,7 +226,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
