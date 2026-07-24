@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T19:24:14+09:00",
+  "updatedAt": "2026-07-24T22:53:41+09:00",
   "sample": false,
   "branches": [
     {
@@ -246,7 +246,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -356,7 +356,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -366,7 +366,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
