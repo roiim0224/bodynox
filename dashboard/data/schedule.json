@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T00:09:54+09:00",
+  "updatedAt": "2026-07-27T02:07:45+09:00",
   "sample": false,
   "branches": [
     {
@@ -246,7 +246,7 @@
           "title": "Garuda Reformer",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
