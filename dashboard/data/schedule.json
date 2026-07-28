@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:12:57+09:00",
+  "updatedAt": "2026-07-29T08:04:42+09:00",
   "sample": false,
   "branches": [
     {
@@ -146,7 +146,7 @@
           "title": "Combine 2X L2",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1104,8 +1104,8 @@
           "title": "Core Cut",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 7,
-          "status": "confirmed"
+          "booked": 8,
+          "status": "full"
         },
         {
           "date": "2026-07-29",
@@ -1134,7 +1134,7 @@
           "title": "GARUDA BARRE",
           "instructor": "Amy",
           "capacity": 8,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1164,7 +1164,7 @@
           "title": "Original Pilates",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1264,7 +1264,7 @@
           "title": "RAVE Push&Pull",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
