@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T08:04:42+09:00",
+  "updatedAt": "2026-07-29T11:56:46+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,7 +46,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -56,7 +56,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 6,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -126,7 +126,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -585,7 +585,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1103,8 +1103,8 @@
           "end": "12:50",
           "title": "Core Cut",
           "instructor": "최미미",
-          "capacity": 8,
-          "booked": 8,
+          "capacity": 9,
+          "booked": 9,
           "status": "full"
         },
         {
@@ -1164,7 +1164,7 @@
           "title": "Original Pilates",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1254,7 +1254,7 @@
           "title": "RAVE Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1294,7 +1294,7 @@
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
