@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T04:23:54+09:00",
+  "updatedAt": "2026-07-30T06:01:24+09:00",
   "sample": false,
   "branches": [
     {
@@ -864,7 +864,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
