@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T06:16:04+09:00",
+  "updatedAt": "2026-07-31T08:12:31+09:00",
   "sample": false,
   "branches": [
     {
@@ -604,7 +604,7 @@
           "title": "GARUDA Reformer",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
