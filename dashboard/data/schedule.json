@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T19:44:03+09:00",
+  "updatedAt": "2026-07-31T23:19:13+09:00",
   "sample": false,
   "branches": [
     {
@@ -306,7 +306,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1647,6 +1647,16 @@
           "capacity": 5,
           "booked": 0,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-08-02",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         }
       ]
     },
