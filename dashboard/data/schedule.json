@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T12:23:33+09:00",
+  "updatedAt": "2026-07-31T15:49:21+09:00",
   "sample": false,
   "branches": [
     {
@@ -16,7 +16,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 4,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -47,6 +47,16 @@
           "instructor": "하수빈",
           "capacity": 5,
           "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-07-31",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -387,6 +397,26 @@
           "instructor": "한승희",
           "capacity": 5,
           "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-08-07",
+          "start": "17:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (2시간 제한)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-08-07",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
           "status": "confirmed"
         }
       ]
