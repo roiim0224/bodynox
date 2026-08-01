@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T05:59:24+09:00",
+  "updatedAt": "2026-08-02T07:59:10+09:00",
   "sample": false,
   "branches": [
     {
@@ -1305,7 +1305,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
