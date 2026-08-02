@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T07:59:10+09:00",
+  "updatedAt": "2026-08-02T12:22:01+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,7 +36,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1315,7 +1315,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
