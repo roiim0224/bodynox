@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T04:44:18+09:00",
+  "updatedAt": "2026-08-04T06:08:33+09:00",
   "sample": false,
   "branches": [
     {
@@ -3044,7 +3044,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3294,7 +3294,7 @@
           "title": "Original Pilates",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
