@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T06:08:33+09:00",
+  "updatedAt": "2026-08-04T08:06:45+09:00",
   "sample": false,
   "branches": [
     {
@@ -2632,16 +2632,6 @@
           "date": "2026-08-06",
           "start": "07:00",
           "end": "07:50",
-          "title": "개인수업",
-          "instructor": "이지나",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-06",
-          "start": "07:00",
-          "end": "07:50",
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
@@ -2804,6 +2794,16 @@
           "end": "09:50",
           "title": "개인수업",
           "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-07",
+          "start": "09:00",
+          "end": "09:50",
+          "title": "개인수업",
+          "instructor": "양초희",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -3004,7 +3004,7 @@
           "title": "Core Cut",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3054,7 +3054,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -3094,7 +3094,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
