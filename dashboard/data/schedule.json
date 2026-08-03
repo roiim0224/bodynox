@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T20:30:39+09:00",
+  "updatedAt": "2026-08-03T23:48:54+09:00",
   "sample": false,
   "branches": [
     {
@@ -16,8 +16,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-05",
@@ -76,7 +76,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 6,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -196,7 +196,7 @@
           "title": "Combine 2X L2",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -236,7 +236,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -1396,7 +1396,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1486,7 +1486,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1586,7 +1586,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1616,7 +1616,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2890,16 +2890,6 @@
         },
         {
           "date": "2026-08-04",
-          "start": "18:30",
-          "end": "19:20",
-          "title": "개인수업",
-          "instructor": "유정민",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-04",
           "start": "19:00",
           "end": "19:50",
           "title": "그룹수업",
@@ -2914,16 +2904,6 @@
           "end": "19:50",
           "title": "개인수업",
           "instructor": "차민정",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-04",
-          "start": "19:30",
-          "end": "20:20",
-          "title": "개인수업",
-          "instructor": "유정민",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -3035,7 +3015,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3075,7 +3055,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -3170,8 +3150,8 @@
         },
         {
           "date": "2026-08-06",
-          "start": "18:00",
-          "end": "18:50",
+          "start": "17:30",
+          "end": "18:20",
           "title": "개인수업",
           "instructor": "유정민",
           "capacity": 1,
@@ -3380,8 +3360,8 @@
         },
         {
           "date": "2026-08-08",
-          "start": "11:00",
-          "end": "11:50",
+          "start": "13:00",
+          "end": "13:50",
           "title": "개인수업",
           "instructor": "차민정",
           "capacity": 1,
@@ -3674,7 +3654,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -3744,7 +3724,7 @@
           "title": "GARUDA Brick",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3784,7 +3764,7 @@
           "title": "RAVE Push&Pull",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -3944,7 +3924,7 @@
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
