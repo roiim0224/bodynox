@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T11:52:56+09:00",
+  "updatedAt": "2026-08-04T15:31:49+09:00",
   "sample": false,
   "branches": [
     {
@@ -236,7 +236,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -266,7 +266,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2700,6 +2700,16 @@
         },
         {
           "date": "2026-08-06",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-06",
           "start": "11:40",
           "end": "12:30",
           "title": "그룹수업",
@@ -2815,7 +2825,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -3119,22 +3129,12 @@
         },
         {
           "date": "2026-08-04",
-          "start": "16:30",
-          "end": "17:20",
-          "title": "1:1 필라테스",
-          "instructor": "이혜민",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-04",
           "start": "17:30",
           "end": "18:20",
           "title": "GARUDA Chair",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -3214,7 +3214,7 @@
           "title": "GARUDA Brick",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 5,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3371,6 +3371,16 @@
           "date": "2026-08-06",
           "start": "15:30",
           "end": "16:20",
+          "title": "1:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-06",
+          "start": "16:30",
+          "end": "17:20",
           "title": "1:1 필라테스",
           "instructor": "이혜민",
           "capacity": 1,
