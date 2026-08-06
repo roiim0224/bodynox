@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T08:04:47+09:00",
+  "updatedAt": "2026-08-06T11:52:57+09:00",
   "sample": false,
   "branches": [
     {
@@ -26,8 +26,8 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 6,
-          "booked": 5,
-          "status": "confirmed"
+          "booked": 6,
+          "status": "full"
         },
         {
           "date": "2026-08-06",
@@ -46,8 +46,8 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-06",
@@ -106,8 +106,8 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-06",
@@ -126,8 +126,8 @@
           "title": "Combine 2X L2",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-06",
@@ -736,7 +736,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -886,7 +886,7 @@
           "title": "Combine 2X L2",
           "instructor": "바디녹스필라테스",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2025,8 +2025,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-06",
@@ -2045,7 +2045,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2314,7 +2314,7 @@
           "title": "RAVE Blast",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2384,7 +2384,7 @@
           "title": "GARUDA Reformer",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -2404,7 +2404,7 @@
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2474,7 +2474,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
