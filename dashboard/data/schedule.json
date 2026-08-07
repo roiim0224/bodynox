@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T09:06:35+09:00",
+  "updatedAt": "2026-08-07T13:29:23+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,7 +36,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -236,7 +236,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -486,7 +486,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -496,7 +496,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1665,7 +1665,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1904,7 +1904,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
