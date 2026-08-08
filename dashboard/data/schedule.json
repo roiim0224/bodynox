@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T12:37:39+09:00",
+  "updatedAt": "2026-08-08T14:01:45+09:00",
   "sample": false,
   "branches": [
     {
@@ -66,7 +66,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -76,7 +76,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -246,7 +246,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -256,7 +256,7 @@
           "title": "Combine 2X L2",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
