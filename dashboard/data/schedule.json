@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T19:38:47+09:00",
+  "updatedAt": "2026-08-08T21:56:25+09:00",
   "sample": false,
   "branches": [
     {
@@ -186,7 +186,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 6,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -346,7 +346,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -396,7 +396,7 @@
           "title": "Reformer-full body",
           "instructor": "바디녹스필라테스",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1445,7 +1445,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         }
       ]
