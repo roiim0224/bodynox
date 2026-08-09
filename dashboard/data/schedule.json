@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T17:49:37+09:00",
+  "updatedAt": "2026-08-09T19:39:36+09:00",
   "sample": false,
   "branches": [
     {
@@ -1317,6 +1317,16 @@
           "capacity": 5,
           "booked": 2,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-08-09",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         }
       ]
     },
@@ -1905,6 +1915,16 @@
           "instructor": "이혜민",
           "capacity": 1,
           "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-15",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "2:1 필라테스",
+          "instructor": "이혜민",
+          "capacity": 2,
+          "booked": 2,
           "status": "full"
         },
         {
