@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T20:12:47+09:00",
+  "updatedAt": "2026-08-10T22:17:57+09:00",
   "sample": false,
   "branches": [
     {
@@ -56,7 +56,7 @@
           "title": "Reformer-full body",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -106,7 +106,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 6,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -116,7 +116,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -216,7 +216,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1346,7 +1346,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 6,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1506,7 +1506,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1526,7 +1526,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3399,6 +3399,16 @@
         },
         {
           "date": "2026-08-10",
+          "start": "20:10",
+          "end": "21:00",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-10",
           "start": "06:30",
           "end": "07:20",
           "title": "1:1 필라테스",
@@ -3514,7 +3524,7 @@
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -3554,7 +3564,7 @@
           "title": "RAVE Hybrid",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 5,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3856,6 +3866,16 @@
           "capacity": 8,
           "booked": 2,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-08-14",
+          "start": "08:30",
+          "end": "09:20",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-08-14",
