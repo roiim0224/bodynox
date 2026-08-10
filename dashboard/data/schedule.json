@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T14:37:54+09:00",
+  "updatedAt": "2026-08-10T16:49:35+09:00",
   "sample": false,
   "branches": [
     {
@@ -16,8 +16,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-12",
@@ -56,8 +56,8 @@
           "title": "Reformer-full body",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-13",
@@ -304,7 +304,7 @@
           "start": "17:00",
           "end": "17:50",
           "title": "Reformer-full body",
-          "instructor": "바디녹스필라테스",
+          "instructor": "이수은",
           "capacity": 5,
           "booked": 2,
           "status": "confirmed"
@@ -314,9 +314,9 @@
           "start": "18:00",
           "end": "18:50",
           "title": "Reformer-full body",
-          "instructor": "바디녹스필라테스",
+          "instructor": "이수은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -324,7 +324,7 @@
           "start": "19:00",
           "end": "19:50",
           "title": "Reformer-full body",
-          "instructor": "바디녹스필라테스",
+          "instructor": "이수은",
           "capacity": 5,
           "booked": 5,
           "status": "full"
@@ -334,7 +334,7 @@
           "start": "20:00",
           "end": "20:50",
           "title": "Reformer-full body",
-          "instructor": "바디녹스필라테스",
+          "instructor": "이수은",
           "capacity": 5,
           "booked": 3,
           "status": "confirmed"
@@ -2590,6 +2590,16 @@
         },
         {
           "date": "2026-08-10",
+          "start": "18:20",
+          "end": "19:10",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-10",
           "start": "18:30",
           "end": "19:20",
           "title": "개인수업",
@@ -2725,8 +2735,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-11",
@@ -2955,7 +2965,7 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -3005,7 +3015,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -3379,6 +3389,16 @@
         },
         {
           "date": "2026-08-10",
+          "start": "15:00",
+          "end": "15:50",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-10",
           "start": "18:30",
           "end": "19:20",
           "title": "1:1 필라테스",
@@ -3403,16 +3423,6 @@
           "end": "08:20",
           "title": "1:1 필라테스",
           "instructor": "양초희",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-10",
-          "start": "15:00",
-          "end": "15:50",
-          "title": "1:1 필라테스",
-          "instructor": "이혜민",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -3614,7 +3624,7 @@
           "title": "RAVE 4X4",
           "instructor": "이채은",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
