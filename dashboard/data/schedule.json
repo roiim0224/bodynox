@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T00:03:53+09:00",
+  "updatedAt": "2026-08-11T01:58:26+09:00",
   "sample": false,
   "branches": [
     {
@@ -116,7 +116,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
