@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T20:03:18+09:00",
+  "updatedAt": "2026-08-12T22:19:03+09:00",
   "sample": false,
   "branches": [
     {
@@ -86,7 +86,7 @@
           "title": "Combine 2X L2",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2352,16 +2352,6 @@
           "date": "2026-08-13",
           "start": "20:00",
           "end": "20:50",
-          "title": "개인수업",
-          "instructor": "김주아",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-13",
-          "start": "20:00",
-          "end": "20:50",
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
@@ -2624,7 +2614,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -2634,7 +2624,7 @@
           "title": "GARUDA Reformer",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2704,7 +2694,7 @@
           "title": "Original Pilates",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
