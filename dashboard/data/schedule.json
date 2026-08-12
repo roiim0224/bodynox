@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T14:41:12+09:00",
+  "updatedAt": "2026-08-12T16:39:27+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,7 +46,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 6,
-          "booked": 3,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -86,7 +86,7 @@
           "title": "Combine 2X L2",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2195,7 +2195,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
