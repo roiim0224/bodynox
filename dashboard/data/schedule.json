@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T14:43:26+09:00",
+  "updatedAt": "2026-08-13T16:41:23+09:00",
   "sample": false,
   "branches": [
     {
@@ -66,7 +66,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2035,7 +2035,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2184,7 +2184,7 @@
           "title": "RAVE Hybrid",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
