@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T11:19:54+09:00",
+  "updatedAt": "2026-08-13T14:43:26+09:00",
   "sample": false,
   "branches": [
     {
@@ -25,18 +25,8 @@
           "end": "19:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 6,
-          "booked": 6,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-13",
-          "start": "20:00",
-          "end": "20:50",
-          "title": "[파비짐] 바레",
-          "instructor": "노아름",
-          "capacity": 6,
-          "booked": 1,
+          "capacity": 9,
+          "booked": 8,
           "status": "confirmed"
         },
         {
@@ -56,7 +46,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -86,7 +76,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -116,8 +106,8 @@
           "title": "Combine 2X L2",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-14",
@@ -595,7 +585,7 @@
           "end": "19:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 6,
+          "capacity": 9,
           "booked": 2,
           "status": "confirmed"
         },
@@ -605,7 +595,7 @@
           "end": "19:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 6,
+          "capacity": 9,
           "booked": 1,
           "status": "confirmed"
         },
@@ -615,7 +605,7 @@
           "end": "20:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 6,
+          "capacity": 9,
           "booked": 4,
           "status": "confirmed"
         },
@@ -625,7 +615,7 @@
           "end": "20:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 6,
+          "capacity": 9,
           "booked": 2,
           "status": "confirmed"
         },
@@ -646,7 +636,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -676,7 +666,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -746,7 +736,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -766,7 +756,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -776,7 +766,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -806,7 +796,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1820,6 +1810,16 @@
         },
         {
           "date": "2026-08-13",
+          "start": "10:30",
+          "end": "11:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-13",
           "start": "11:00",
           "end": "11:50",
           "title": "개인수업",
@@ -1850,6 +1850,16 @@
         },
         {
           "date": "2026-08-13",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-13",
           "start": "12:00",
           "end": "12:50",
           "title": "그룹수업",
@@ -1862,6 +1872,16 @@
           "date": "2026-08-13",
           "start": "12:30",
           "end": "13:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-13",
+          "start": "14:00",
+          "end": "14:50",
           "title": "개인수업",
           "instructor": "채수진",
           "capacity": 1,
@@ -1925,8 +1945,8 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-13",
@@ -2124,7 +2144,7 @@
           "title": "RAVE Hybrid",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2159,22 +2179,12 @@
         },
         {
           "date": "2026-08-13",
-          "start": "17:30",
-          "end": "18:20",
-          "title": "RAVE Hybrid",
-          "instructor": "이혜민",
-          "capacity": 8,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-08-13",
           "start": "18:30",
           "end": "19:20",
           "title": "RAVE Hybrid",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2186,16 +2196,6 @@
           "capacity": 8,
           "booked": 5,
           "status": "confirmed"
-        },
-        {
-          "date": "2026-08-14",
-          "start": "11:00",
-          "end": "11:50",
-          "title": "1:1 필라테스",
-          "instructor": "최미미",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
         },
         {
           "date": "2026-08-14",
@@ -2223,6 +2223,16 @@
           "end": "13:20",
           "title": "1:1 필라테스",
           "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-14",
+          "start": "13:00",
+          "end": "13:50",
+          "title": "1:1 필라테스",
+          "instructor": "최미미",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -2271,7 +2281,7 @@
           "date": "2026-08-14",
           "start": "08:30",
           "end": "09:20",
-          "title": "1:1 필라테스",
+          "title": "1:1 필라테스 & 공수아",
           "instructor": "공수아",
           "capacity": 1,
           "booked": 1,
@@ -2294,7 +2304,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 10,
-          "booked": 8,
+          "booked": 7,
           "status": "confirmed"
         },
         {
