@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T18:12:02+09:00",
+  "updatedAt": "2026-08-14T20:01:00+09:00",
   "sample": false,
   "branches": [
     {
@@ -426,7 +426,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -506,7 +506,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1615,13 +1615,23 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
           "date": "2026-08-15",
           "start": "14:00",
           "end": "14:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-15",
+          "start": "15:00",
+          "end": "15:50",
           "title": "개인수업",
           "instructor": "차민정",
           "capacity": 1,
