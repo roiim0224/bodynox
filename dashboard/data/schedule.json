@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T14:41:23+09:00",
+  "updatedAt": "2026-08-14T16:38:57+09:00",
   "sample": false,
   "branches": [
     {
@@ -1590,6 +1590,16 @@
         },
         {
           "date": "2026-08-14",
+          "start": "16:00",
+          "end": "16:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-14",
           "start": "19:00",
           "end": "19:50",
           "title": "그룹수업",
@@ -1617,16 +1627,6 @@
           "capacity": 5,
           "booked": 0,
           "status": "confirmed"
-        },
-        {
-          "date": "2026-08-14",
-          "start": "21:30",
-          "end": "22:20",
-          "title": "개인수업",
-          "instructor": "양초희",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
         },
         {
           "date": "2026-08-15",
