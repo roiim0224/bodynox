@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T13:36:10+09:00",
+  "updatedAt": "2026-08-15T15:45:09+09:00",
   "sample": false,
   "branches": [
     {
@@ -236,7 +236,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
