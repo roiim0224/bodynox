@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T17:34:37+09:00",
+  "updatedAt": "2026-08-16T19:27:53+09:00",
   "sample": false,
   "branches": [
     {
@@ -106,7 +106,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
