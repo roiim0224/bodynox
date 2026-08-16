@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T19:27:53+09:00",
+  "updatedAt": "2026-08-16T21:47:16+09:00",
   "sample": false,
   "branches": [
     {
@@ -96,7 +96,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1273,7 +1273,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 10,
-          "booked": 6,
+          "booked": 5,
           "status": "confirmed"
         },
         {
