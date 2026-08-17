@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T10:29:00+09:00",
+  "updatedAt": "2026-08-17T12:04:35+09:00",
   "sample": false,
   "branches": [
     {
@@ -246,8 +246,8 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-20",
@@ -256,8 +256,8 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-19",
@@ -2645,7 +2645,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2795,7 +2795,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -3005,7 +3005,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3155,7 +3155,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
