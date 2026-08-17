@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T13:47:53+09:00",
+  "updatedAt": "2026-08-17T16:03:36+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,7 +46,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -126,7 +126,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -136,7 +136,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -496,7 +496,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -506,7 +506,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1396,7 +1396,7 @@
           "title": "Combine 2X L2",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1456,7 +1456,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3364,7 +3364,7 @@
           "title": "Original Pilates",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -3374,7 +3374,7 @@
           "title": "RAVE 4X4",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
