@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:26:03+09:00",
+  "updatedAt": "2026-08-17T10:29:00+09:00",
   "sample": false,
   "branches": [
     {
@@ -186,7 +186,7 @@
           "title": "Combine 2X L2",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -3304,7 +3304,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 10,
-          "booked": 5,
+          "booked": 6,
           "status": "confirmed"
         },
         {
@@ -3754,7 +3754,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
