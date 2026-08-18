@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T05:29:13+09:00",
+  "updatedAt": "2026-08-19T07:28:25+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,7 +46,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -876,7 +876,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -886,7 +886,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2874,7 +2874,7 @@
           "title": "GARUDA Sling",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2984,7 +2984,7 @@
           "title": "Original Pilates",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
