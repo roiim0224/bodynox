@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T15:51:02+09:00",
+  "updatedAt": "2026-08-18T17:42:09+09:00",
   "sample": false,
   "branches": [
     {
@@ -34,7 +34,7 @@
           "start": "12:20",
           "end": "13:10",
           "title": "Reformer-full body",
-          "instructor": "홍지영",
+          "instructor": "이주미",
           "capacity": 5,
           "booked": 4,
           "status": "confirmed"
@@ -156,7 +156,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -254,7 +254,7 @@
           "start": "11:20",
           "end": "12:10",
           "title": "Combine 2X (Reformer + Tower)",
-          "instructor": "홍지영",
+          "instructor": "이주미",
           "capacity": 5,
           "booked": 4,
           "status": "confirmed"
@@ -266,7 +266,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -536,7 +536,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -546,7 +546,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1084,7 +1084,7 @@
           "start": "12:20",
           "end": "13:10",
           "title": "Reformer-full body",
-          "instructor": "홍지영",
+          "instructor": "이주미",
           "capacity": 5,
           "booked": 2,
           "status": "confirmed"
@@ -1094,7 +1094,7 @@
           "start": "12:20",
           "end": "13:10",
           "title": "Reformer-full body",
-          "instructor": "홍지영",
+          "instructor": "이주미",
           "capacity": 5,
           "booked": 5,
           "status": "full"
@@ -1146,7 +1146,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1236,7 +1236,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1294,7 +1294,7 @@
           "start": "11:20",
           "end": "12:10",
           "title": "Combine 2X (Reformer + Tower)",
-          "instructor": "홍지영",
+          "instructor": "이주미",
           "capacity": 5,
           "booked": 1,
           "status": "confirmed"
@@ -1364,7 +1364,7 @@
           "start": "11:20",
           "end": "12:10",
           "title": "A.B.T",
-          "instructor": "홍지영",
+          "instructor": "이주미",
           "capacity": 5,
           "booked": 1,
           "status": "confirmed"
@@ -2605,7 +2605,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2695,7 +2695,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2805,7 +2805,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -3233,7 +3233,7 @@
           "end": "08:20",
           "title": "GARUDA Barre",
           "instructor": "Amy",
-          "capacity": 6,
+          "capacity": 8,
           "booked": 3,
           "status": "confirmed"
         },
@@ -3394,7 +3394,7 @@
           "title": "Core Cut",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3416,16 +3416,6 @@
           "capacity": 8,
           "booked": 0,
           "status": "confirmed"
-        },
-        {
-          "date": "2026-08-20",
-          "start": "16:30",
-          "end": "17:20",
-          "title": "1:1 필라테스",
-          "instructor": "이혜민",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
         },
         {
           "date": "2026-08-20",
