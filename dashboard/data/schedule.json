@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T07:28:54+09:00",
+  "updatedAt": "2026-08-18T10:26:11+09:00",
   "sample": false,
   "branches": [
     {
@@ -26,8 +26,8 @@
           "title": "Reformer-full body",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-20",
@@ -166,7 +166,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -196,7 +196,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1086,7 +1086,7 @@
           "title": "Reformer-full body",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1096,8 +1096,8 @@
           "title": "Reformer-full body",
           "instructor": "홍지영",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-25",
@@ -2525,7 +2525,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2614,16 +2614,6 @@
           "end": "18:50",
           "title": "개인수업",
           "instructor": "채수진",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-19",
-          "start": "18:00",
-          "end": "18:50",
-          "title": "개인수업",
-          "instructor": "김주아",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -2953,6 +2943,16 @@
           "start": "18:00",
           "end": "18:50",
           "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-21",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
           "instructor": "유정민",
           "capacity": 1,
           "booked": 1,
@@ -2987,6 +2987,16 @@
           "capacity": 5,
           "booked": 0,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-08-21",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-08-21",
@@ -3044,7 +3054,7 @@
           "title": "GARUDA Reformer",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -3134,7 +3144,7 @@
           "title": "GARUDA Brick",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 5,
+          "booked": 6,
           "status": "confirmed"
         },
         {
@@ -3244,7 +3254,7 @@
           "title": "Original Pilates",
           "instructor": "이채은",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
