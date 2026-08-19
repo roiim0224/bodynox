@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T10:27:07+09:00",
+  "updatedAt": "2026-08-19T13:41:53+09:00",
   "sample": false,
   "branches": [
     {
@@ -16,8 +16,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-20",
@@ -56,7 +56,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -76,8 +76,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-21",
@@ -136,8 +136,8 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-21",
@@ -146,7 +146,7 @@
           "title": "Combine 2X L2",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2255,7 +2255,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2265,7 +2265,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2355,7 +2355,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2615,7 +2615,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2714,7 +2714,7 @@
           "title": "RAVE Blast",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2734,7 +2734,7 @@
           "title": "Original Pilates",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
