@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T13:41:53+09:00",
+  "updatedAt": "2026-08-19T15:52:25+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,7 +36,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1066,7 +1066,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2545,8 +2545,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-21",
@@ -2702,7 +2702,7 @@
           "start": "12:00",
           "end": "12:50",
           "title": "1:1 필라테스",
-          "instructor": "양초희",
+          "instructor": "공수아",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -2854,7 +2854,7 @@
           "title": "Core Cut",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2939,6 +2939,26 @@
         },
         {
           "date": "2026-08-21",
+          "start": "06:30",
+          "end": "07:20",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-21",
+          "start": "06:40",
+          "end": "07:30",
+          "title": "1:1 필라테스",
+          "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-21",
           "start": "13:00",
           "end": "13:50",
           "title": "1:1 필라테스",
@@ -2996,16 +3016,6 @@
           "capacity": 8,
           "booked": 1,
           "status": "confirmed"
-        },
-        {
-          "date": "2026-08-21",
-          "start": "06:30",
-          "end": "07:20",
-          "title": "1:1 필라테스",
-          "instructor": "공수아",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
         },
         {
           "date": "2026-08-21",
