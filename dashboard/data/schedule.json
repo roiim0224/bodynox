@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T10:26:08+09:00",
+  "updatedAt": "2026-08-20T12:01:15+09:00",
   "sample": false,
   "branches": [
     {
@@ -666,7 +666,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -816,7 +816,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -876,7 +876,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -886,7 +886,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 0,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2135,8 +2135,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-21",
@@ -2279,26 +2279,6 @@
       "classes": [
         {
           "date": "2026-08-20",
-          "start": "11:30",
-          "end": "12:20",
-          "title": "Original Pilates",
-          "instructor": "이혜민",
-          "capacity": 8,
-          "booked": 3,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-08-20",
-          "start": "12:00",
-          "end": "12:50",
-          "title": "1:1 필라테스",
-          "instructor": "최미미",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-20",
           "start": "14:30",
           "end": "15:20",
           "title": "1:1 필라테스",
@@ -2331,7 +2311,7 @@
           "date": "2026-08-20",
           "start": "18:30",
           "end": "19:20",
-          "title": "김지현",
+          "title": "1:1 필라테스",
           "instructor": "이혜민",
           "capacity": 1,
           "booked": 1,
@@ -2365,6 +2345,16 @@
           "instructor": "임용호",
           "capacity": 8,
           "booked": 4,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-08-20",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "Original Pilates",
+          "instructor": "이혜민",
+          "capacity": 8,
+          "booked": 3,
           "status": "confirmed"
         },
         {
