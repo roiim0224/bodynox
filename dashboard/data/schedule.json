@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T19:35:36+09:00",
+  "updatedAt": "2026-08-20T21:57:00+09:00",
   "sample": false,
   "branches": [
     {
@@ -106,8 +106,8 @@
           "title": "Combine 2X L2",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-21",
@@ -756,7 +756,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -876,7 +876,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
