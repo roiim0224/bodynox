@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T15:55:12+09:00",
+  "updatedAt": "2026-08-21T17:46:01+09:00",
   "sample": false,
   "branches": [
     {
@@ -1730,16 +1730,6 @@
         },
         {
           "date": "2026-08-21",
-          "start": "19:00",
-          "end": "19:50",
-          "title": "그룹수업",
-          "instructor": "차민정",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-08-21",
           "start": "20:00",
           "end": "20:50",
           "title": "그룹수업",
@@ -1894,7 +1884,7 @@
           "title": "Original Pilates",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 3,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -1954,7 +1944,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 5,
           "status": "confirmed"
         },
         {
