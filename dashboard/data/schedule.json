@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T21:56:07+09:00",
+  "updatedAt": "2026-08-21T23:40:05+09:00",
   "sample": false,
   "branches": [
     {
@@ -376,7 +376,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 5,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -386,7 +386,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -656,7 +656,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
