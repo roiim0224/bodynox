@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T05:30:23+09:00",
+  "updatedAt": "2026-08-22T07:29:50+09:00",
   "sample": false,
   "branches": [
     {
@@ -1408,16 +1408,6 @@
       "status": "ok",
       "error": null,
       "classes": [
-        {
-          "date": "2026-08-22",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "황정희",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
-        },
         {
           "date": "2026-08-22",
           "start": "11:00",
