@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T13:43:38+09:00",
+  "updatedAt": "2026-08-21T15:55:12+09:00",
   "sample": false,
   "branches": [
     {
@@ -1745,7 +1745,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1954,7 +1954,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
