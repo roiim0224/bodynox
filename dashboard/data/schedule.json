@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T21:47:31+09:00",
+  "updatedAt": "2026-08-22T23:26:14+09:00",
   "sample": false,
   "branches": [
     {
@@ -186,8 +186,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-24",
@@ -356,7 +356,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -416,7 +416,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
