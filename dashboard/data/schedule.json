@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T05:28:16+09:00",
+  "updatedAt": "2026-08-24T07:27:31+09:00",
   "sample": false,
   "branches": [
     {
@@ -2579,13 +2579,13 @@
         },
         {
           "date": "2026-08-24",
-          "start": "07:30",
-          "end": "08:20",
-          "title": "1:1 필라테스",
-          "instructor": "양초희",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
+          "start": "06:30",
+          "end": "07:20",
+          "title": "RAVE 4X4",
+          "instructor": "임용호",
+          "capacity": 8,
+          "booked": 5,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-24",
@@ -2594,17 +2594,7 @@
           "title": "GARUDA Reformer",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-08-24",
-          "start": "06:30",
-          "end": "07:20",
-          "title": "RAVE 4X4",
-          "instructor": "임용호",
-          "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
