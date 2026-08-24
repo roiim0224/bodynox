@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T01:42:55+09:00",
+  "updatedAt": "2026-08-25T03:46:53+09:00",
   "sample": false,
   "branches": [
     {
@@ -1565,7 +1565,7 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
