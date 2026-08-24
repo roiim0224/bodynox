@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T07:27:31+09:00",
+  "updatedAt": "2026-08-24T10:37:35+09:00",
   "sample": false,
   "branches": [
     {
@@ -56,7 +56,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -76,7 +76,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 5,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -86,7 +86,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -96,7 +96,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -116,8 +116,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-26",
@@ -196,8 +196,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-25",
@@ -286,8 +286,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-26",
@@ -1755,8 +1755,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-24",
@@ -1845,7 +1845,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1955,8 +1955,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-25",
@@ -2005,7 +2005,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2561,20 +2561,10 @@
           "date": "2026-08-24",
           "start": "18:30",
           "end": "19:20",
-          "title": "1:1개인수업",
-          "instructor": "이채은",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-08-24",
-          "start": "18:30",
-          "end": "19:20",
           "title": "RAVE 4X4",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2603,6 +2593,16 @@
           "end": "14:20",
           "title": "1:1 필라테스",
           "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-24",
+          "start": "16:00",
+          "end": "16:50",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -2784,7 +2784,7 @@
           "title": "RAVE Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -3036,16 +3036,6 @@
           "capacity": 1,
           "booked": 1,
           "status": "full"
-        },
-        {
-          "date": "2026-08-29",
-          "start": "10:30",
-          "end": "11:20",
-          "title": "RAVE",
-          "instructor": "임용호",
-          "capacity": 8,
-          "booked": 0,
-          "status": "confirmed"
         },
         {
           "date": "2026-08-29",
