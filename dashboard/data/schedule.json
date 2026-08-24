@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T13:51:05+09:00",
+  "updatedAt": "2026-08-24T16:06:29+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,8 +46,8 @@
           "title": "Reformer-full body",
           "instructor": "이주미",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-25",
@@ -186,7 +186,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -246,7 +246,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "이주미",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -316,7 +316,7 @@
           "title": "A.B.T",
           "instructor": "이주미",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1316,8 +1316,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-09-02",
@@ -1466,7 +1466,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1476,7 +1476,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1536,7 +1536,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1636,7 +1636,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2844,7 +2844,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2924,7 +2924,7 @@
           "title": "RAVE Hybrid",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
