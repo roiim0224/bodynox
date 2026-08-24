@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T05:35:09+09:00",
+  "updatedAt": "2026-08-25T07:30:54+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,8 +36,8 @@
           "title": "Reformer-full body",
           "instructor": "이주미",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-25",
@@ -116,7 +116,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1406,7 +1406,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1965,7 +1965,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2144,7 +2144,7 @@
           "title": "GARUDA Reformer",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -2204,7 +2204,7 @@
           "title": "GARUDA MAT",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2254,7 +2254,7 @@
           "title": "GARUDA Barre",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
