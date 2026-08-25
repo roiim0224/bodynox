@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T15:55:17+09:00",
+  "updatedAt": "2026-08-25T17:48:56+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,7 +46,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -56,7 +56,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -106,7 +106,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -166,8 +166,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-25",
@@ -286,7 +286,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1186,7 +1186,7 @@
           "title": "Combine 2X L2",
           "instructor": "장은서",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2025,7 +2025,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2194,7 +2194,7 @@
           "title": "GARUDA Sling",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 6,
+          "booked": 7,
           "status": "confirmed"
         },
         {
@@ -2284,7 +2284,7 @@
           "title": "GARUDA MAT",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2343,6 +2343,16 @@
           "end": "09:20",
           "title": "1:1 필라테스",
           "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-26",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "1:1 필라테스",
+          "instructor": "최미미",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -2533,6 +2543,16 @@
           "end": "07:30",
           "title": "1:1 필라테스",
           "instructor": "양초희",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-28",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "1:1 필라테스",
+          "instructor": "최미미",
           "capacity": 1,
           "booked": 1,
           "status": "full"
