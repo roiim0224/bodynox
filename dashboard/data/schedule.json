@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T07:30:54+09:00",
+  "updatedAt": "2026-08-25T10:27:11+09:00",
   "sample": false,
   "branches": [
     {
@@ -66,7 +66,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -156,8 +156,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-25",
@@ -176,7 +176,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1206,7 +1206,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1595,7 +1595,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2314,7 +2314,7 @@
           "title": "Original Pilates",
           "instructor": "이채은",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
