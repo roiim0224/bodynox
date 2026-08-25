@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T21:54:46+09:00",
+  "updatedAt": "2026-08-25T23:51:43+09:00",
   "sample": false,
   "branches": [
     {
@@ -196,8 +196,8 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 3,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-27",
@@ -216,7 +216,7 @@
           "title": "A.B.T",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -586,7 +586,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -596,7 +596,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -606,7 +606,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1645,7 +1645,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2004,6 +2004,16 @@
           "end": "20:20",
           "title": "개인수업",
           "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-27",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "개인수업",
+          "instructor": "김주아",
           "capacity": 1,
           "booked": 1,
           "status": "full"
