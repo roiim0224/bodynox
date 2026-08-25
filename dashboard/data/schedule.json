@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T17:48:56+09:00",
+  "updatedAt": "2026-08-25T19:37:32+09:00",
   "sample": false,
   "branches": [
     {
@@ -66,7 +66,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 5,
+          "booked": 6,
           "status": "confirmed"
         },
         {
@@ -106,7 +106,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -116,8 +116,8 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-27",
@@ -176,8 +176,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-28",
@@ -506,7 +506,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (오후권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -526,7 +526,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -536,7 +536,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -576,7 +576,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (야간권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1106,7 +1106,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1116,7 +1116,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2214,8 +2214,8 @@
           "title": "GARDUA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 6,
-          "status": "confirmed"
+          "booked": 8,
+          "status": "full"
         },
         {
           "date": "2026-08-25",
@@ -2374,7 +2374,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
