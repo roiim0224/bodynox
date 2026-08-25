@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T10:27:11+09:00",
+  "updatedAt": "2026-08-25T12:03:16+09:00",
   "sample": false,
   "branches": [
     {
@@ -166,7 +166,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -176,7 +176,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -186,8 +186,8 @@
           "title": "Combine 2X L2",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-26",
@@ -276,7 +276,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1480,6 +1480,16 @@
         },
         {
           "date": "2026-08-25",
+          "start": "10:30",
+          "end": "11:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-25",
           "start": "11:30",
           "end": "12:20",
           "title": "개인수업",
@@ -1507,6 +1517,16 @@
           "capacity": 5,
           "booked": 4,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-08-25",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-08-25",
@@ -1630,6 +1650,16 @@
         },
         {
           "date": "2026-08-26",
+          "start": "10:50",
+          "end": "11:40",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-26",
           "start": "11:40",
           "end": "12:30",
           "title": "그룹수업",
@@ -1637,6 +1667,16 @@
           "capacity": 5,
           "booked": 1,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-08-26",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-08-26",
@@ -1660,6 +1700,16 @@
         },
         {
           "date": "2026-08-26",
+          "start": "12:30",
+          "end": "13:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-26",
           "start": "13:00",
           "end": "13:50",
           "title": "개인수업",
@@ -1670,8 +1720,18 @@
         },
         {
           "date": "2026-08-26",
-          "start": "15:00",
-          "end": "15:50",
+          "start": "13:30",
+          "end": "14:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-26",
+          "start": "17:00",
+          "end": "17:50",
           "title": "개인수업",
           "instructor": "채수진",
           "capacity": 1,
@@ -1800,6 +1860,16 @@
         },
         {
           "date": "2026-08-27",
+          "start": "10:30",
+          "end": "11:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-08-27",
           "start": "11:00",
           "end": "11:50",
           "title": "개인수업",
@@ -1827,6 +1897,16 @@
           "capacity": 5,
           "booked": 4,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-08-27",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-08-27",
@@ -1965,7 +2045,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2114,7 +2194,7 @@
           "title": "GARUDA Sling",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2134,7 +2214,7 @@
           "title": "GARDUA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -2154,7 +2234,7 @@
           "title": "Core Cut",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2234,7 +2314,7 @@
           "title": "RAVE Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2256,16 +2336,6 @@
           "capacity": 8,
           "booked": 0,
           "status": "confirmed"
-        },
-        {
-          "date": "2026-08-26",
-          "start": "06:40",
-          "end": "07:30",
-          "title": "1:1 필라테스",
-          "instructor": "양초희",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
         },
         {
           "date": "2026-08-26",
