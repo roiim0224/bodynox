@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T12:10:08+09:00",
+  "updatedAt": "2026-08-26T13:44:47+09:00",
   "sample": false,
   "branches": [
     {
@@ -76,8 +76,8 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-27",
@@ -1445,7 +1445,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1687,6 +1687,16 @@
           "capacity": 5,
           "booked": 3,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-08-29",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-08-30",
