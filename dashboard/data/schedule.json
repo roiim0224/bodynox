@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T05:06:12+09:00",
+  "updatedAt": "2026-08-29T12:35:40+09:00",
   "sample": false,
   "branches": [
     {
@@ -346,7 +346,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
