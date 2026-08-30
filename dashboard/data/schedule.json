@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T14:13:08+09:00",
+  "updatedAt": "2026-08-30T20:35:31+09:00",
   "sample": false,
   "branches": [
     {
@@ -56,7 +56,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -66,7 +66,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 9,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -96,7 +96,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -226,7 +226,7 @@
           "title": "Reformer-full body",
           "instructor": "한승희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -236,7 +236,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -336,8 +336,8 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-08-31",
@@ -346,8 +346,8 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-08-31",
@@ -774,7 +774,7 @@
           "title": "RAVE Push&Pull",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
