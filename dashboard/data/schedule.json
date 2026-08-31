@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T02:28:55+09:00",
+  "updatedAt": "2026-09-01T07:40:31+09:00",
   "sample": false,
   "branches": [
     {
@@ -136,7 +136,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -206,7 +206,7 @@
           "title": "A.B.T",
           "instructor": "장은서",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -677,16 +677,6 @@
           "capacity": 1,
           "booked": 1,
           "status": "full"
-        },
-        {
-          "date": "2026-09-01",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "김주아",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
         },
         {
           "date": "2026-09-01",
@@ -1334,7 +1324,7 @@
           "title": "Original Pilates",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 3,
+          "booked": 5,
           "status": "confirmed"
         },
         {
