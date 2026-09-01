@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T13:22:22+09:00",
+  "updatedAt": "2026-09-01T20:23:02+09:00",
   "sample": false,
   "branches": [
     {
@@ -55,7 +55,7 @@
           "end": "19:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 9,
+          "capacity": 8,
           "booked": 3,
           "status": "confirmed"
         },
@@ -65,8 +65,8 @@
           "end": "20:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 9,
-          "booked": 3,
+          "capacity": 8,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -75,7 +75,7 @@
           "end": "20:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 9,
+          "capacity": 8,
           "booked": 3,
           "status": "confirmed"
         },
@@ -96,7 +96,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -156,8 +156,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-09-01",
@@ -166,7 +166,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -206,7 +206,7 @@
           "title": "A.B.T",
           "instructor": "장은서",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -246,7 +246,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -256,7 +256,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -266,7 +266,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -276,7 +276,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -286,8 +286,778 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-01",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-03",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "09:00",
+          "end": "11:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "11:00",
+          "end": "13:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "13:00",
+          "end": "15:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "15:00",
+          "end": "17:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "16:00",
+          "end": "18:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
         },
         {
           "date": "2026-09-07",
@@ -315,7 +1085,7 @@
           "end": "19:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 9,
+          "capacity": 8,
           "booked": 0,
           "status": "confirmed"
         },
@@ -325,8 +1095,8 @@
           "end": "20:50",
           "title": "[파비짐] 바레",
           "instructor": "노아름",
-          "capacity": 9,
-          "booked": 2,
+          "capacity": 8,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -366,7 +1136,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -536,7 +1306,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -627,6 +1397,976 @@
           "instructor": "장은서",
           "capacity": 5,
           "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-07",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-08",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-09",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "18:00",
+          "end": "19:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "19:00",
+          "end": "20:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "20:00",
+          "end": "21:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "21:00",
+          "end": "22:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "22:00",
+          "end": "23:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "23:00",
+          "end": "00:00",
+          "title": "[바이크투고] 자유 좌석 예약 (야간권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-10",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "09:00",
+          "end": "11:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "11:00",
+          "end": "13:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "13:00",
+          "end": "15:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "15:00",
+          "end": "17:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "16:00",
+          "end": "18:00",
+          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
           "status": "confirmed"
         }
       ]
@@ -770,23 +2510,13 @@
         },
         {
           "date": "2026-09-01",
-          "start": "18:40",
-          "end": "19:30",
-          "title": "그룹수업",
-          "instructor": "이지원",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-09-01",
           "start": "19:00",
           "end": "19:50",
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-01",
@@ -795,7 +2525,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -845,7 +2575,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -934,16 +2664,6 @@
           "end": "21:50",
           "title": "개인수업",
           "instructor": "차민정",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-09-03",
-          "start": "07:00",
-          "end": "07:50",
-          "title": "개인수업",
-          "instructor": "양초희",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -1205,8 +2925,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-09-04",
@@ -1334,7 +3054,7 @@
           "title": "GARUDA Brick",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1424,7 +3144,7 @@
           "title": "GARUDA Barre",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1444,7 +3164,7 @@
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1514,7 +3234,7 @@
           "title": "RAVE Push&Pull",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1534,7 +3254,7 @@
           "title": "RAVE Push&Pull",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1554,7 +3274,7 @@
           "title": "RAVE Push&Pull",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1714,7 +3434,7 @@
           "title": "RAVE Full Body",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
