@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T08:54:08+09:00",
+  "updatedAt": "2026-09-02T12:45:16+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,7 +46,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -116,7 +116,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -146,7 +146,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -206,7 +206,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -752,8 +752,18 @@
         {
           "date": "2026-09-05",
           "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "10:00",
           "end": "11:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -762,8 +772,18 @@
         {
           "date": "2026-09-05",
           "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "12:00",
           "end": "13:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -772,8 +792,18 @@
         {
           "date": "2026-09-05",
           "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "14:00",
           "end": "15:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -782,8 +812,8 @@
         {
           "date": "2026-09-05",
           "start": "15:00",
-          "end": "17:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -792,8 +822,18 @@
         {
           "date": "2026-09-05",
           "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-05",
+          "start": "17:00",
           "end": "18:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -866,7 +906,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -916,7 +956,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -976,7 +1016,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1116,7 +1156,7 @@
           "title": "A.B.T",
           "instructor": "장은서",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2042,8 +2082,18 @@
         {
           "date": "2026-09-12",
           "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "10:00",
           "end": "11:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -2052,8 +2102,18 @@
         {
           "date": "2026-09-12",
           "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "12:00",
           "end": "13:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -2062,8 +2122,18 @@
         {
           "date": "2026-09-12",
           "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "14:00",
           "end": "15:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -2072,8 +2142,8 @@
         {
           "date": "2026-09-12",
           "start": "15:00",
-          "end": "17:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -2082,8 +2152,18 @@
         {
           "date": "2026-09-12",
           "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "17:00",
           "end": "18:00",
-          "title": "[바이크투고] 주말 좌석 예약 (2시간 예약)",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
           "booked": 0,
@@ -2135,8 +2215,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-02",
@@ -2295,7 +2375,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2305,8 +2385,8 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-09-03",
@@ -2475,7 +2555,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2485,8 +2565,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-04",
@@ -2545,7 +2625,7 @@
           "title": "그룹수업",
           "instructor": "황정희",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2644,7 +2724,7 @@
           "title": "GARUDA Barre",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 3,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -2674,8 +2754,8 @@
           "title": "Core Cut",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 6,
-          "status": "confirmed"
+          "booked": 8,
+          "status": "full"
         },
         {
           "date": "2026-09-02",
@@ -2734,7 +2814,7 @@
           "title": "GARUDA Reformer",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2844,7 +2924,7 @@
           "title": "GARUDA Chair",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2884,7 +2964,7 @@
           "title": "GARUDA Sling",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
