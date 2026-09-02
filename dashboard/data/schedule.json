@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T17:37:32+09:00",
+  "updatedAt": "2026-09-02T23:13:06+09:00",
   "sample": false,
   "branches": [
     {
@@ -26,8 +26,8 @@
           "title": "Reformer-full body",
           "instructor": "장은서",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 3,
+          "status": "confirmed"
         },
         {
           "date": "2026-09-03",
@@ -66,8 +66,8 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-03",
@@ -96,7 +96,7 @@
           "title": "Combine 2X L2",
           "instructor": "장은서",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -196,7 +196,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -886,7 +886,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -956,7 +956,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1016,7 +1016,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1066,7 +1066,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2250,6 +2250,26 @@
         },
         {
           "date": "2026-09-02",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-02",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-02",
           "start": "18:00",
           "end": "18:50",
           "title": "개인수업",
@@ -2275,7 +2295,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2285,7 +2305,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2335,7 +2355,7 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2385,8 +2405,8 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-03",
@@ -2475,7 +2495,7 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2566,6 +2586,16 @@
           "instructor": "차민정",
           "capacity": 5,
           "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-04",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
           "status": "full"
         },
         {
@@ -2764,7 +2794,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2804,7 +2834,7 @@
           "title": "RAVE Push&Pull",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2964,7 +2994,7 @@
           "title": "GARUDA Sling",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
