@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T07:15:22+09:00",
+  "updatedAt": "2026-09-05T12:44:36+09:00",
   "sample": false,
   "branches": [
     {
@@ -1445,7 +1445,7 @@
           "title": "그룹수업",
           "instructor": "황정희",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
