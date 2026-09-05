@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T05:08:19+09:00",
+  "updatedAt": "2026-09-06T08:39:54+09:00",
   "sample": false,
   "branches": [
     {
@@ -1355,17 +1355,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-09-06",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "차민정",
-          "capacity": 5,
-          "booked": 0,
+          "booked": 2,
           "status": "confirmed"
         }
       ]
