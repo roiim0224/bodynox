@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T04:20:53+09:00",
+  "updatedAt": "2026-09-09T07:29:14+09:00",
   "sample": false,
   "branches": [
     {
@@ -146,7 +146,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
