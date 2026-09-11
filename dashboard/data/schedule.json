@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T17:46:51+09:00",
+  "updatedAt": "2026-09-11T23:09:47+09:00",
   "sample": false,
   "branches": [
     {
@@ -386,7 +386,7 @@
           "title": "Reformer-full body",
           "instructor": "장은서",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -486,7 +486,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -506,7 +506,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1759,16 +1759,6 @@
           "status": "full"
         },
         {
-          "date": "2026-09-11",
-          "start": "21:00",
-          "end": "21:50",
-          "title": "그룹수업",
-          "instructor": "유정민",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
           "date": "2026-09-12",
           "start": "10:00",
           "end": "10:50",
@@ -1914,7 +1904,7 @@
           "title": "GARUDA Reformer",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 6,
+          "booked": 5,
           "status": "confirmed"
         },
         {
