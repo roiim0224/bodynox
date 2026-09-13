@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T03:39:40+09:00",
+  "updatedAt": "2026-09-14T07:15:32+09:00",
   "sample": false,
   "branches": [
     {
@@ -1256,7 +1256,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2525,7 +2525,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -3284,7 +3284,7 @@
           "title": "Swan Line",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
