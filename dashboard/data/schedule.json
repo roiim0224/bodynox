@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T04:08:14+09:00",
+  "updatedAt": "2026-09-15T08:01:42+09:00",
   "sample": false,
   "branches": [
     {
@@ -216,8 +216,8 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-15",
@@ -986,7 +986,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 5,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2095,18 +2095,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-09-15",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "김주아",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-15",
@@ -2834,7 +2824,7 @@
           "title": "Original Pilates",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 5,
           "status": "confirmed"
         },
         {
