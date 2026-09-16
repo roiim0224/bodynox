@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T06:03:00+09:00",
+  "updatedAt": "2026-09-16T09:04:10+09:00",
   "sample": false,
   "branches": [
     {
@@ -86,7 +86,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1825,7 +1825,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2215,7 +2215,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2364,7 +2364,7 @@
           "title": "GARUDA Barre",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2494,7 +2494,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 6,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -2504,7 +2504,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
