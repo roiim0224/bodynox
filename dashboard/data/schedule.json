@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T06:07:56+09:00",
+  "updatedAt": "2026-09-18T09:00:46+09:00",
   "sample": false,
   "branches": [
     {
@@ -1464,7 +1464,7 @@
           "title": "GARUDA Barre",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
