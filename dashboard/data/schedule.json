@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T12:58:42+09:00",
+  "updatedAt": "2026-09-24T18:14:33+09:00",
   "sample": false,
   "branches": [
     {
@@ -1370,6 +1370,16 @@
           "date": "2026-09-26",
           "start": "12:00",
           "end": "12:50",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-26",
+          "start": "13:30",
+          "end": "14:20",
           "title": "1:1 필라테스",
           "instructor": "공수아",
           "capacity": 1,
