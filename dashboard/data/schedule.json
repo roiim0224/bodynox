@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T13:13:20+09:00",
+  "updatedAt": "2026-09-25T20:30:13+09:00",
   "sample": false,
   "branches": [
     {
@@ -216,7 +216,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -236,7 +236,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -286,7 +286,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1227,7 +1227,18 @@
       "source": "pilatesh1.studiomate.kr",
       "status": "ok",
       "error": null,
-      "classes": []
+      "classes": [
+        {
+          "date": "2026-09-26",
+          "start": "14:00",
+          "end": "20:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        }
+      ]
     },
     {
       "id": "butfit",
