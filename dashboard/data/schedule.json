@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T22:42:28+09:00",
+  "updatedAt": "2026-09-28T03:10:17+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,7 +36,7 @@
           "title": "Combine 2X L2",
           "instructor": "이주미",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -96,8 +96,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-28",
@@ -106,7 +106,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -256,7 +256,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (오전권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -766,7 +766,7 @@
           "title": "[바이크투고] 자유 좌석 예약 (오전권)",
           "instructor": "BikeToGO_바투고",
           "capacity": 7,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1026,7 +1026,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1046,7 +1046,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1066,7 +1066,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1128,6 +1128,786 @@
           "capacity": 5,
           "booked": 1,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "12:20",
+          "end": "13:10",
+          "title": "Reformer-full body",
+          "instructor": "한송희",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "12:20",
+          "end": "13:10",
+          "title": "Reformer-full body",
+          "instructor": "한송희",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "12:20",
+          "end": "13:10",
+          "title": "Combine 2X L2",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "Reformer-full body",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "08:00",
+          "end": "08:50",
+          "title": "Tower -Spine Corrector",
+          "instructor": "한송희",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "Reformer-full body",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "Reformer-full body",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "Reformer-full body",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "Reformer-full body",
+          "instructor": "변유주",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오후권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "06:00",
+          "end": "07:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "07:00",
+          "end": "08:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "08:00",
+          "end": "09:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (오전권)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "[파비짐] 바레",
+          "instructor": "노아름",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "09:00",
+          "end": "10:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "10:00",
+          "end": "11:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "11:00",
+          "end": "12:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "12:00",
+          "end": "13:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "13:00",
+          "end": "14:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "14:00",
+          "end": "15:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "15:00",
+          "end": "16:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "16:00",
+          "end": "17:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "17:00",
+          "end": "18:00",
+          "title": "[바이크투고] 자유 좌석 예약 (주말)",
+          "instructor": "BikeToGO_바투고",
+          "capacity": 7,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "[파비짐] GX (최대정원 8인)",
+          "instructor": "이지선",
+          "capacity": 8,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "[파비짐] GX (최대정원 8인)",
+          "instructor": "이지선",
+          "capacity": 8,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "11:20",
+          "end": "12:10",
+          "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
+          "instructor": "한송희",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "11:20",
+          "end": "12:10",
+          "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
+          "instructor": "한송희",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "Combine 2X L2",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "A.B.T",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "A.B.T",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "A.B.T",
+          "instructor": "김지은",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
         }
       ]
     },
@@ -1137,7 +1917,768 @@
       "source": "pilatesh1.studiomate.kr",
       "status": "ok",
       "error": null,
-      "classes": []
+      "classes": [
+        {
+          "date": "2026-09-28",
+          "start": "08:00",
+          "end": "08:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "09:00",
+          "end": "09:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 4,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "13:00",
+          "end": "13:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "14:00",
+          "end": "15:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "17:30",
+          "end": "18:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "18:20",
+          "end": "19:10",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "19:15",
+          "end": "20:05",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "07:00",
+          "end": "07:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "08:00",
+          "end": "08:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "개인수업",
+          "instructor": "이지원",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 4,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 4,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "15:00",
+          "end": "15:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "17:40",
+          "end": "18:30",
+          "title": "개인수업",
+          "instructor": "이지원",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "18:40",
+          "end": "19:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "20:30",
+          "end": "21:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "개인수업",
+          "instructor": "이지원",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "그룹수업",
+          "instructor": "유정민",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "07:00",
+          "end": "07:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "08:00",
+          "end": "08:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "09:00",
+          "end": "09:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "개인수업",
+          "instructor": "이지원",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "개인수업",
+          "instructor": "이진주",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "15:00",
+          "end": "15:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "18:30",
+          "end": "19:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "18:40",
+          "end": "19:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "김주아",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "19:30",
+          "end": "20:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "20:30",
+          "end": "21:20",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "21:00",
+          "end": "21:50",
+          "title": "개인수업",
+          "instructor": "이지원",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-02",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-02",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "그룹수업",
+          "instructor": "이지원",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-02",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "개인수업",
+          "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-02",
+          "start": "12:00",
+          "end": "12:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-02",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-02",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 1,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-02",
+          "start": "20:00",
+          "end": "20:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 0,
+          "status": "confirmed"
+        }
+      ]
     },
     {
       "id": "butfit",
