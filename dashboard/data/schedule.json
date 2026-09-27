@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T03:10:17+09:00",
+  "updatedAt": "2026-09-28T07:54:13+09:00",
   "sample": false,
   "branches": [
     {
@@ -2075,7 +2075,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2645,7 +2645,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2704,7 +2704,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2784,7 +2784,7 @@
           "title": "RAVE ISO Fit",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 4,
+          "booked": 6,
           "status": "confirmed"
         },
         {
