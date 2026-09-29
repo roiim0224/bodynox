@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T10:38:04+09:00",
+  "updatedAt": "2026-09-29T17:08:10+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,8 +36,8 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-09-30",
@@ -46,7 +46,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -166,8 +166,8 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-29",
@@ -176,8 +176,8 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-09-29",
@@ -836,7 +836,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -856,8 +856,8 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-02",
@@ -876,7 +876,7 @@
           "title": "Reformer-full body",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1760,6 +1760,16 @@
         },
         {
           "date": "2026-09-29",
+          "start": "13:50",
+          "end": "14:40",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-09-29",
           "start": "15:00",
           "end": "15:50",
           "title": "개인수업",
@@ -1825,7 +1835,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2110,6 +2120,16 @@
         },
         {
           "date": "2026-10-01",
+          "start": "12:30",
+          "end": "13:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
           "start": "15:00",
           "end": "15:50",
           "title": "개인수업",
@@ -2334,7 +2354,7 @@
           "title": "RAVE Drive",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2364,7 +2384,7 @@
           "title": "GARUDA Chair",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2374,7 +2394,7 @@
           "title": "GARUDA Barre",
           "instructor": "이혜민",
           "capacity": 8,
-          "booked": 0,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2509,6 +2529,26 @@
         },
         {
           "date": "2026-10-01",
+          "start": "11:30",
+          "end": "12:20",
+          "title": "GARUDA Reformer",
+          "instructor": "이혜민",
+          "capacity": 8,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "11:40",
+          "end": "12:30",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-01",
           "start": "12:30",
           "end": "13:20",
           "title": "1:1 필라테스",
@@ -2524,7 +2564,7 @@
           "title": "Original Pilates",
           "instructor": "최미미",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2576,16 +2616,6 @@
           "capacity": 1,
           "booked": 1,
           "status": "full"
-        },
-        {
-          "date": "2026-10-01",
-          "start": "11:30",
-          "end": "12:20",
-          "title": "GARUDA Reformer",
-          "instructor": "이혜민",
-          "capacity": 8,
-          "booked": 2,
-          "status": "confirmed"
         },
         {
           "date": "2026-10-01",
