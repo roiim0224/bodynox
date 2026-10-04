@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T14:06:13+09:00",
+  "updatedAt": "2026-10-04T21:02:28+09:00",
   "sample": false,
   "branches": [
     {
@@ -56,7 +56,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -776,7 +776,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -786,7 +786,7 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         }
       ]
@@ -958,13 +958,33 @@
         },
         {
           "date": "2026-10-07",
+          "start": "06:30",
+          "end": "07:20",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-07",
           "start": "07:30",
           "end": "08:20",
           "title": "근막이완 (Foam Roller)",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-10-07",
@@ -993,8 +1013,18 @@
           "title": "GARUDA Chair",
           "instructor": "홍지영",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "11:00",
+          "end": "11:50",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-10-08",
@@ -1073,7 +1103,7 @@
           "title": "GARUDA Barre",
           "instructor": "임용호",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
