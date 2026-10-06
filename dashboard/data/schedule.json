@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T04:22:04+09:00",
+  "updatedAt": "2026-10-07T08:40:45+09:00",
   "sample": false,
   "branches": [
     {
@@ -86,7 +86,7 @@
           "title": "Tower -Spine Corrector",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -446,7 +446,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -456,8 +456,8 @@
           "title": "A.B.T",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-10-07",
@@ -1296,7 +1296,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1306,7 +1306,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1640,6 +1640,16 @@
         },
         {
           "date": "2026-10-08",
+          "start": "07:00",
+          "end": "07:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 3,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-08",
           "start": "08:00",
           "end": "08:50",
           "title": "개인수업",
@@ -1894,7 +1904,7 @@
           "title": "GARADA Chakra",
           "instructor": "홍지영",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2064,7 +2074,7 @@
           "title": "GARUDA Barre",
           "instructor": "홍지영",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2073,6 +2083,16 @@
           "end": "10:50",
           "title": "1:1 필라테스",
           "instructor": "이혜민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-09",
+          "start": "10:10",
+          "end": "11:00",
+          "title": "1:1 필라테스",
+          "instructor": "공수아",
           "capacity": 1,
           "booked": 1,
           "status": "full"
