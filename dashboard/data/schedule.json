@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T04:49:45+09:00",
+  "updatedAt": "2026-10-08T09:05:36+09:00",
   "sample": false,
   "branches": [
     {
@@ -36,7 +36,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -56,8 +56,8 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-08",
@@ -186,7 +186,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1106,7 +1106,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1116,7 +1116,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1286,7 +1286,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         }
       ]
@@ -1345,7 +1345,7 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1475,8 +1475,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-08",
@@ -1649,8 +1649,8 @@
         },
         {
           "date": "2026-10-08",
-          "start": "10:00",
-          "end": "10:50",
+          "start": "10:10",
+          "end": "11:00",
           "title": "1:1 필라테스",
           "instructor": "공수아",
           "capacity": 1,
