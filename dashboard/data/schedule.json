@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T14:24:24+09:00",
+  "updatedAt": "2026-10-09T21:52:59+09:00",
   "sample": false,
   "branches": [
     {
@@ -176,7 +176,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -196,7 +196,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -216,7 +216,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1087,7 +1087,48 @@
       "source": "pilatesh1.studiomate.kr",
       "status": "ok",
       "error": null,
-      "classes": []
+      "classes": [
+        {
+          "date": "2026-10-09",
+          "start": "09:30",
+          "end": "10:20",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "이진주",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "13:00",
+          "end": "13:50",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-11",
+          "start": "10:00",
+          "end": "10:50",
+          "title": "그룹수업",
+          "instructor": "차민정",
+          "capacity": 5,
+          "booked": 5,
+          "status": "full"
+        }
+      ]
     },
     {
       "id": "butfit",
@@ -1143,7 +1184,7 @@
           "title": "RAVE Full-Body",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         }
       ]
