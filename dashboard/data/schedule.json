@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T21:52:59+09:00",
+  "updatedAt": "2026-10-10T04:21:51+09:00",
   "sample": false,
   "branches": [
     {
@@ -1089,24 +1089,14 @@
       "error": null,
       "classes": [
         {
-          "date": "2026-10-09",
-          "start": "09:30",
-          "end": "10:20",
-          "title": "개인수업",
-          "instructor": "차민정",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
           "date": "2026-10-10",
           "start": "10:00",
           "end": "10:50",
           "title": "그룹수업",
           "instructor": "이진주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-10-10",
@@ -1137,46 +1127,6 @@
       "status": "ok",
       "error": null,
       "classes": [
-        {
-          "date": "2026-10-09",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "1:1 필라테스",
-          "instructor": "Mina",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-09",
-          "start": "10:10",
-          "end": "11:00",
-          "title": "1:1 필라테스",
-          "instructor": "공수아",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-09",
-          "start": "11:00",
-          "end": "11:50",
-          "title": "1:1 필라테스",
-          "instructor": "Mina",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-09",
-          "start": "15:30",
-          "end": "16:20",
-          "title": "1:1 필라테스",
-          "instructor": "공수아",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
         {
           "date": "2026-10-10",
           "start": "11:00",
