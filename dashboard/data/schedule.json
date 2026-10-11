@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T13:57:34+09:00",
+  "updatedAt": "2026-10-11T21:24:51+09:00",
   "sample": false,
   "branches": [
     {
@@ -16,8 +16,8 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-14",
@@ -46,7 +46,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -86,7 +86,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -846,7 +846,7 @@
           "title": "Reformer L 2",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -876,8 +876,8 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-12",
@@ -906,7 +906,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -916,7 +916,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -986,6 +986,16 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "한송희",
           "capacity": 5,
+          "booked": 2,
+          "status": "confirmed"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "10:10",
+          "end": "11:00",
+          "title": "[파비짐] GX (최대정원 8인)",
+          "instructor": "이지선",
+          "capacity": 8,
           "booked": 2,
           "status": "confirmed"
         }
@@ -1094,7 +1104,7 @@
           "title": "BLAST",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1126,6 +1136,16 @@
           "capacity": 8,
           "booked": 1,
           "status": "confirmed"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "16:30",
+          "end": "17:20",
+          "title": "1:1 필라테스",
+          "instructor": "Mina",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
         },
         {
           "date": "2026-10-12",
@@ -1234,7 +1254,7 @@
           "title": "ISO-FIT",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1251,16 +1271,6 @@
           "date": "2026-10-13",
           "start": "13:30",
           "end": "14:20",
-          "title": "1:1 필라테스",
-          "instructor": "Mina",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-13",
-          "start": "16:30",
-          "end": "17:20",
           "title": "1:1 필라테스",
           "instructor": "Mina",
           "capacity": 1,
@@ -1294,7 +1304,7 @@
           "title": "GARUDA Reformer",
           "instructor": "Doris",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1314,7 +1324,7 @@
           "title": "Original pilates",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1324,7 +1334,7 @@
           "title": "그룹 필라테스",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1394,7 +1404,7 @@
           "title": "GARADA Chakra",
           "instructor": "Doris",
           "capacity": 8,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -1464,7 +1474,7 @@
           "title": "ISO-FIT",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1554,7 +1564,7 @@
           "title": "BLAZ - 4X4",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1564,7 +1574,7 @@
           "title": "4X4",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
