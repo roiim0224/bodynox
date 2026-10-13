@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T00:44:47+09:00",
+  "updatedAt": "2026-10-14T06:05:19+09:00",
   "sample": false,
   "branches": [
     {
@@ -626,7 +626,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1805,7 +1805,7 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2134,7 +2134,7 @@
           "title": "GARUDA Chair",
           "instructor": "Doris",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
