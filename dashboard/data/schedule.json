@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T03:24:43+09:00",
+  "updatedAt": "2026-10-15T08:05:05+09:00",
   "sample": false,
   "branches": [
     {
@@ -396,8 +396,8 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-15",
@@ -1505,8 +1505,8 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-15",
@@ -1655,8 +1655,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-16",
@@ -1665,7 +1665,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1814,7 +1814,7 @@
           "title": "ISO-FIT",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
