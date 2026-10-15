@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T18:02:44+09:00",
+  "updatedAt": "2026-10-15T23:46:37+09:00",
   "sample": false,
   "branches": [
     {
@@ -426,7 +426,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -496,7 +496,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -506,7 +506,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1595,8 +1595,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-15",
@@ -1615,8 +1615,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-16",
@@ -1655,8 +1655,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-10-16",
@@ -1675,7 +1675,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1685,8 +1685,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-10-17",
@@ -1754,7 +1754,7 @@
           "title": "ISO-FIT",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 5,
+          "booked": 6,
           "status": "confirmed"
         },
         {
@@ -1814,7 +1814,7 @@
           "title": "Original Pilates",
           "instructor": "Doris",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1884,7 +1884,7 @@
           "title": "BLAZ - 4X4",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 7,
+          "booked": 5,
           "status": "confirmed"
         },
         {
@@ -1894,7 +1894,7 @@
           "title": "4X4",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1914,7 +1914,7 @@
           "title": "4X4",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 0,
+          "booked": 2,
           "status": "confirmed"
         },
         {
