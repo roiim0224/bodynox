@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T07:58:18+09:00",
+  "updatedAt": "2026-10-16T12:52:31+09:00",
   "sample": false,
   "branches": [
     {
@@ -346,7 +346,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1384,7 +1384,7 @@
           "title": "BLAZ - 4X4",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 5,
+          "booked": 6,
           "status": "confirmed"
         },
         {
@@ -1424,7 +1424,7 @@
           "title": "4X4",
           "instructor": "공수아",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1434,7 +1434,7 @@
           "title": "Hybrid",
           "instructor": "Roi",
           "capacity": 8,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
