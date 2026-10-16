@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T12:52:31+09:00",
+  "updatedAt": "2026-10-16T17:53:34+09:00",
   "sample": false,
   "branches": [
     {
@@ -266,7 +266,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -346,7 +346,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -356,7 +356,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -366,7 +366,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1126,7 +1126,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1236,7 +1236,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         }
       ]
@@ -1280,6 +1280,16 @@
         },
         {
           "date": "2026-10-16",
+          "start": "15:30",
+          "end": "16:20",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-16",
           "start": "18:00",
           "end": "18:50",
           "title": "개인수업",
@@ -1295,7 +1305,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1305,8 +1315,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-17",
@@ -1344,120 +1354,9 @@
       "id": "butfit",
       "name": "3지점 · 버핏",
       "source": "care.butfit.io",
-      "status": "ok",
-      "error": null,
-      "classes": [
-        {
-          "date": "2026-10-16",
-          "start": "06:30",
-          "end": "07:20",
-          "title": "1:1 필라테스",
-          "instructor": "공수아",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-16",
-          "start": "06:40",
-          "end": "07:30",
-          "title": "1:1 필라테스",
-          "instructor": "양초희",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-16",
-          "start": "12:00",
-          "end": "12:50",
-          "title": "1:1 필라테스",
-          "instructor": "공수아",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-16",
-          "start": "12:00",
-          "end": "12:50",
-          "title": "BLAZ - 4X4",
-          "instructor": "Roi",
-          "capacity": 8,
-          "booked": 6,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-16",
-          "start": "07:30",
-          "end": "08:20",
-          "title": "4X4",
-          "instructor": "공수아",
-          "capacity": 8,
-          "booked": 1,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-16",
-          "start": "08:30",
-          "end": "09:20",
-          "title": "1:1 필라테스",
-          "instructor": "양초희",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-16",
-          "start": "17:30",
-          "end": "18:20",
-          "title": "4X4",
-          "instructor": "공수아",
-          "capacity": 8,
-          "booked": 2,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-16",
-          "start": "18:30",
-          "end": "19:20",
-          "title": "4X4",
-          "instructor": "공수아",
-          "capacity": 8,
-          "booked": 3,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-17",
-          "start": "11:00",
-          "end": "11:50",
-          "title": "Hybrid",
-          "instructor": "Roi",
-          "capacity": 8,
-          "booked": 4,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-17",
-          "start": "11:00",
-          "end": "11:50",
-          "title": "2:1 필라테스",
-          "instructor": "Mina",
-          "capacity": 2,
-          "booked": 2,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-17",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "1:1 필라테스",
-          "instructor": "Mina",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        }
-      ]
+      "status": "error",
+      "error": "로그인 실패(비번칸 유지) url=https://care.butfit.io/login title=버핏케어 : 로그인 text=©2026 BUTFITSEOUL. All Rights Reserved. 관리자 로그인 휴대전화번호 ('-' 제외) 비밀번호 로그인 관리자 권한이 없는 경우, 고객 센터로 문의하여 계정을 생성해 주세요.",
+      "classes": []
     }
   ]
 }
