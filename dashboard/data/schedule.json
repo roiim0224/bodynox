@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T07:42:08+09:00",
+  "updatedAt": "2026-10-17T12:42:50+09:00",
   "sample": false,
   "branches": [
     {
@@ -936,7 +936,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -956,7 +956,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
