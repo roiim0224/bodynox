@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T05:21:15+09:00",
+  "updatedAt": "2026-10-19T09:01:09+09:00",
   "sample": false,
   "branches": [
     {
@@ -86,7 +86,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -896,8 +896,8 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-10-19",
@@ -906,7 +906,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -2055,7 +2055,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2270,6 +2270,16 @@
         },
         {
           "date": "2026-10-20",
+          "start": "17:40",
+          "end": "18:30",
+          "title": "개인수업",
+          "instructor": "이지원",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-20",
           "start": "18:00",
           "end": "18:50",
           "title": "개인수업",
@@ -2365,8 +2375,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-21",
@@ -2560,6 +2570,16 @@
         },
         {
           "date": "2026-10-22",
+          "start": "17:40",
+          "end": "18:30",
+          "title": "개인수업",
+          "instructor": "이지원",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-22",
           "start": "18:00",
           "end": "18:50",
           "title": "개인수업",
@@ -2674,6 +2694,16 @@
           "end": "18:50",
           "title": "개인수업",
           "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-10-23",
+          "start": "19:00",
+          "end": "19:50",
+          "title": "개인수업",
+          "instructor": "이지원",
           "capacity": 1,
           "booked": 1,
           "status": "full"
