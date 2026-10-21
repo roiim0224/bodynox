@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T09:28:14+09:00",
+  "updatedAt": "2026-10-21T16:19:27+09:00",
   "sample": false,
   "branches": [
     {
@@ -26,7 +26,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -46,7 +46,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -556,7 +556,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -566,7 +566,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1456,8 +1456,8 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-30",
@@ -1476,7 +1476,7 @@
           "title": "Reformer L 2",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1496,7 +1496,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1516,7 +1516,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1596,7 +1596,7 @@
           "title": "Reformer L1",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1675,7 +1675,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1697,16 +1697,6 @@
           "capacity": 5,
           "booked": 2,
           "status": "confirmed"
-        },
-        {
-          "date": "2026-10-21",
-          "start": "17:00",
-          "end": "17:50",
-          "title": "개인수업",
-          "instructor": "채수진",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
         },
         {
           "date": "2026-10-21",
@@ -1745,8 +1735,8 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 2,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-10-21",
@@ -1755,7 +1745,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1775,7 +1765,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 0,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1925,8 +1915,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-10-23",
@@ -2055,7 +2045,7 @@
           "title": "그룹수업",
           "instructor": "이지영",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         }
       ]
