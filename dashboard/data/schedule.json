@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T13:03:05+09:00",
+  "updatedAt": "2026-10-23T20:17:17+09:00",
   "sample": false,
   "branches": [
     {
@@ -226,7 +226,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1335,7 +1335,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1345,7 +1345,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
