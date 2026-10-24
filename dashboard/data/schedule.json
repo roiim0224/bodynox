@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T21:31:54+09:00",
+  "updatedAt": "2026-10-25T02:17:11+09:00",
   "sample": false,
   "branches": [
     {
@@ -10,96 +10,6 @@
       "error": null,
       "classes": [
         {
-          "date": "2026-10-24",
-          "start": "09:00",
-          "end": "10:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "10:00",
-          "end": "11:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "11:00",
-          "end": "12:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "12:00",
-          "end": "13:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "13:00",
-          "end": "14:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "14:00",
-          "end": "15:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "15:00",
-          "end": "16:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "16:00",
-          "end": "17:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "17:00",
-          "end": "18:00",
-          "title": "[바이크투고] 자유 좌석 예약 (주말)",
-          "instructor": "BikeToGO_바투고",
-          "capacity": 7,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
           "date": "2026-10-26",
           "start": "12:20",
           "end": "13:10",
@@ -176,7 +86,7 @@
           "title": "Reformer-full body",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -936,7 +846,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1108,46 +1018,6 @@
       "status": "ok",
       "error": null,
       "classes": [
-        {
-          "date": "2026-10-24",
-          "start": "09:00",
-          "end": "09:50",
-          "title": "개인수업",
-          "instructor": "차민정",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "개인수업",
-          "instructor": "차민정",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "이진주",
-          "capacity": 5,
-          "booked": 5,
-          "status": "full"
-        },
-        {
-          "date": "2026-10-24",
-          "start": "11:00",
-          "end": "11:50",
-          "title": "개인수업",
-          "instructor": "차민정",
-          "capacity": 1,
-          "booked": 1,
-          "status": "full"
-        },
         {
           "date": "2026-10-25",
           "start": "10:00",
