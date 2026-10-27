@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T02:45:21+09:00",
+  "updatedAt": "2026-10-28T06:59:13+09:00",
   "sample": false,
   "branches": [
     {
@@ -626,7 +626,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
