@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T04:28:28+09:00",
+  "updatedAt": "2026-10-30T08:52:03+09:00",
   "sample": false,
   "branches": [
     {
@@ -1006,7 +1006,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
