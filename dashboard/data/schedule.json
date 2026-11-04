@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T04:18:12+09:00",
+  "updatedAt": "2026-11-04T09:30:26+09:00",
   "sample": false,
   "branches": [
     {
@@ -366,7 +366,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 1,
+          "booked": 0,
           "status": "confirmed"
         },
         {
@@ -486,7 +486,7 @@
           "title": "Reformer-full body",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -526,8 +526,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-04",
@@ -1805,7 +1805,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2015,8 +2015,8 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-11-05",
@@ -2165,8 +2165,8 @@
           "title": "그룹수업",
           "instructor": "이지영",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-08",
