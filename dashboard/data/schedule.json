@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T09:00:56+09:00",
+  "updatedAt": "2026-11-07T14:49:46+09:00",
   "sample": false,
   "branches": [
     {
@@ -1086,8 +1086,8 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-12",
