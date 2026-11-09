@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T08:31:07+09:00",
+  "updatedAt": "2026-11-09T14:30:05+09:00",
   "sample": false,
   "branches": [
     {
@@ -46,8 +46,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-10",
@@ -606,7 +606,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -746,7 +746,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -826,7 +826,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -836,7 +836,7 @@
           "title": "Combine 2X L2",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -946,7 +946,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -986,7 +986,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1006,7 +1006,7 @@
           "title": "Combine 2X L2",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -1026,7 +1026,7 @@
           "title": "[애슐리문] 매트 트레이닝",
           "instructor": "문소연",
           "capacity": 12,
-          "booked": 0,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2145,8 +2145,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-09",
@@ -2164,6 +2164,16 @@
           "end": "17:50",
           "title": "개인수업",
           "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "17:10",
+          "end": "18:00",
+          "title": "개인수업",
+          "instructor": "채수진",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -2194,6 +2204,16 @@
           "end": "18:50",
           "title": "개인수업",
           "instructor": "김주아",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "18:20",
+          "end": "19:10",
+          "title": "개인수업",
+          "instructor": "채수진",
           "capacity": 1,
           "booked": 1,
           "status": "full"
@@ -2235,7 +2255,7 @@
           "title": "그룹수업",
           "instructor": "이영아",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2275,7 +2295,7 @@
           "title": "그룹수업",
           "instructor": "이영아",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2295,7 +2315,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2315,7 +2335,7 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2395,7 +2415,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2415,7 +2435,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -2466,6 +2486,16 @@
           "instructor": "차민정",
           "capacity": 5,
           "booked": 5,
+          "status": "full"
+        },
+        {
+          "date": "2026-11-11",
+          "start": "14:30",
+          "end": "15:20",
+          "title": "개인수업",
+          "instructor": "차민정",
+          "capacity": 1,
+          "booked": 1,
           "status": "full"
         },
         {
@@ -2575,7 +2605,7 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2695,7 +2725,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2775,7 +2805,7 @@
           "title": "그룹수업",
           "instructor": "이영아",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
