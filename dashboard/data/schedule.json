@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T00:16:46+09:00",
+  "updatedAt": "2026-11-17T09:04:53+09:00",
   "sample": false,
   "branches": [
     {
@@ -656,7 +656,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -746,8 +746,8 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-11-17",
@@ -766,7 +766,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -796,7 +796,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2615,7 +2615,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2885,7 +2885,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
