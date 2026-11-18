@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T05:40:07+09:00",
+  "updatedAt": "2026-11-18T12:27:14+09:00",
   "sample": false,
   "branches": [
     {
@@ -26,8 +26,8 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-18",
@@ -376,7 +376,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -476,7 +476,7 @@
           "title": "[파비짐] GX (최대정원 8인)",
           "instructor": "이지선",
           "capacity": 8,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -516,7 +516,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -526,7 +526,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 4,
+          "booked": 3,
           "status": "confirmed"
         },
         {
@@ -536,7 +536,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1626,7 +1626,7 @@
           "title": "A.B.T",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1836,7 +1836,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1846,7 +1846,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2200,16 +2200,6 @@
       "classes": [
         {
           "date": "2026-11-18",
-          "start": "10:00",
-          "end": "10:50",
-          "title": "그룹수업",
-          "instructor": "이지원",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-11-18",
           "start": "11:00",
           "end": "11:50",
           "title": "개인수업",
@@ -2280,6 +2270,26 @@
         },
         {
           "date": "2026-11-18",
+          "start": "17:00",
+          "end": "17:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-11-18",
+          "start": "18:00",
+          "end": "18:50",
+          "title": "개인수업",
+          "instructor": "유정민",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-11-18",
           "start": "19:00",
           "end": "19:50",
           "title": "그룹수업",
@@ -2295,7 +2305,7 @@
           "title": "그룹수업",
           "instructor": "유정민",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2355,7 +2365,7 @@
           "title": "그룹수업",
           "instructor": "김주아",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2415,7 +2425,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -2535,7 +2545,7 @@
           "title": "그룹수업",
           "instructor": "이영아",
           "capacity": 5,
-          "booked": 3,
+          "booked": 2,
           "status": "confirmed"
         },
         {
