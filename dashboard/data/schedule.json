@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T12:00:56+09:00",
+  "updatedAt": "2026-11-19T21:40:17+09:00",
   "sample": false,
   "branches": [
     {
@@ -236,7 +236,7 @@
           "title": "[파비짐] 바레",
           "instructor": "노아름",
           "capacity": 8,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -341,16 +341,6 @@
         },
         {
           "date": "2026-11-20",
-          "start": "18:00",
-          "end": "18:50",
-          "title": "Reformer-full body",
-          "instructor": "Pilates_필라테스",
-          "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-11-20",
           "start": "20:00",
           "end": "20:50",
           "title": "Reformer-full body",
@@ -406,8 +396,8 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 4,
+          "status": "confirmed"
         },
         {
           "date": "2026-11-19",
@@ -554,17 +544,7 @@
           "start": "18:00",
           "end": "18:50",
           "title": "Reformer L 2",
-          "instructor": "Pilates_필라테스",
-          "capacity": 5,
-          "booked": 0,
-          "status": "confirmed"
-        },
-        {
-          "date": "2026-11-20",
-          "start": "19:00",
-          "end": "19:50",
-          "title": "Reformer L1",
-          "instructor": "Pilates_필라테스",
+          "instructor": "클럽브릭스",
           "capacity": 5,
           "booked": 0,
           "status": "confirmed"
@@ -576,8 +556,8 @@
           "title": "Reformer L1",
           "instructor": "하수빈",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-23",
@@ -1416,7 +1396,7 @@
           "title": "Reformer-full body",
           "instructor": "김지은",
           "capacity": 5,
-          "booked": 1,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -1496,7 +1476,7 @@
           "title": "Combine 2X (Reformer + Tower)",
           "instructor": "한송희",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1506,7 +1486,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 0,
+          "booked": 1,
           "status": "confirmed"
         },
         {
@@ -1516,7 +1496,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 2,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1526,7 +1506,7 @@
           "title": "A.B.T",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1556,7 +1536,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 1,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -1566,7 +1546,7 @@
           "title": "Reformer L2 (A.B.T) 엉덩이, 다리, 허벅지",
           "instructor": "변유주",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -2085,8 +2065,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 2,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-19",
@@ -2105,7 +2085,7 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 0,
+          "booked": 2,
           "status": "confirmed"
         },
         {
@@ -2145,8 +2125,8 @@
           "title": "그룹수업",
           "instructor": "차민정",
           "capacity": 5,
-          "booked": 5,
-          "status": "full"
+          "booked": 2,
+          "status": "confirmed"
         },
         {
           "date": "2026-11-20",
