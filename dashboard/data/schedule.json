@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T09:05:05+09:00",
+  "updatedAt": "2026-11-26T19:38:44+09:00",
   "sample": false,
   "branches": [
     {
@@ -114,8 +114,8 @@
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-26",
@@ -139,8 +139,28 @@
         },
         {
           "date": "2026-11-26",
+          "start": "13:45",
+          "end": "14:35",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-11-26",
           "start": "15:00",
           "end": "15:50",
+          "title": "개인수업",
+          "instructor": "채수진",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-11-26",
+          "start": "16:00",
+          "end": "16:50",
           "title": "개인수업",
           "instructor": "채수진",
           "capacity": 1,
@@ -209,12 +229,22 @@
         },
         {
           "date": "2026-11-27",
+          "start": "07:00",
+          "end": "07:50",
+          "title": "개인수업",
+          "instructor": "송슬기",
+          "capacity": 1,
+          "booked": 1,
+          "status": "full"
+        },
+        {
+          "date": "2026-11-27",
           "start": "10:00",
           "end": "10:50",
           "title": "그룹수업",
           "instructor": "이지원",
           "capacity": 5,
-          "booked": 3,
+          "booked": 4,
           "status": "confirmed"
         },
         {
@@ -264,8 +294,8 @@
           "title": "그룹수업",
           "instructor": "이영아",
           "capacity": 5,
-          "booked": 4,
-          "status": "confirmed"
+          "booked": 5,
+          "status": "full"
         },
         {
           "date": "2026-11-27",
