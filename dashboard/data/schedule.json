@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T13:00:23+09:00",
+  "updatedAt": "2026-11-27T22:44:39+09:00",
   "sample": false,
   "branches": [
     {
@@ -94,7 +94,7 @@
           "title": "그룹수업",
           "instructor": "이영아",
           "capacity": 5,
-          "booked": 2,
+          "booked": 3,
           "status": "confirmed"
         },
         {
